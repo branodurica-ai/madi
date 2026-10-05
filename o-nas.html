@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O nás – mādi</title>
+<meta name="description" content="mādi navrhuje farmaceutka M., absolventka farmácie na Univerzite Karlovej s praxou vo farmakologickom výskume.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+  .about-hero{background:var(--blush);padding:96px 0 88px}
+  .about-hero .wrap{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:64px;align-items:end}
+  .about-hero h1{font-family:var(--display);font-weight:500;font-size:clamp(48px,6.6vw,96px);line-height:.95;letter-spacing:-.02em;margin:0;color:var(--fuchsia)}
+  .about-hero p{font-size:19px;color:var(--ink-soft);margin:0;max-width:30em}
+  .sig{font-family:var(--display);font-style:italic;font-size:26px;color:var(--ink);margin-top:18px}
+  @media (max-width:900px){.about-hero .wrap{grid-template-columns:minmax(0,1fr);gap:28px}}
+
+  .story{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:64px}
+  .story h2{font-family:var(--display);font-weight:500;font-size:clamp(34px,4vw,52px);line-height:1.02;margin:0}
+  .story .text p{margin:0 0 18px;font-size:18px;line-height:1.7;max-width:36em}
+  .story .text p:first-child::first-letter{font-family:var(--display);float:left;font-size:76px;line-height:.82;padding:6px 10px 0 0;color:var(--fuchsia)}
+  @media (max-width:900px){.story{grid-template-columns:minmax(0,1fr);gap:24px}}
+
+  .path{background:var(--night);color:#F3E9EC}
+  .path h2{font-family:var(--display);font-weight:500;font-size:clamp(34px,4vw,52px);margin:0 0 48px;color:#fff}
+  .timeline{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;position:relative}
+  .timeline::before{content:"";position:absolute;top:9px;left:0;right:0;height:2px;background:#3a2c31}
+  .timeline li{position:relative;padding:40px 22px 0 0}
+  .timeline li::before{content:"";position:absolute;top:2px;left:0;width:16px;height:16px;border-radius:50%;background:var(--night);border:2px solid var(--crimson)}
+  .timeline li:last-child::before{background:var(--crimson)}
+  .timeline h3{font-weight:500;font-size:18px;margin:0 0 8px;color:#fff}
+  .timeline p{margin:0;font-size:15px;color:#CDBFC3}
+  @media (max-width:900px){
+    .timeline{grid-template-columns:minmax(0,1fr);gap:28px}
+    .timeline::before{top:0;bottom:0;left:7px;right:auto;width:2px;height:auto}
+    .timeline li{padding:0 0 0 40px}
+    .timeline li::before{top:3px}
+  }
+
+  .principles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+  .principles h3{font-family:var(--display);font-weight:500;font-size:28px;line-height:1.1;margin:0 0 10px}
+  .principles p{margin:0;color:var(--ink-soft)}
+  .principles > div{border-top:1px solid var(--ink);padding-top:22px}
+  @media (max-width:900px){.principles{grid-template-columns:minmax(0,1fr);gap:28px}}
+
+  .cta-band{background:var(--stone);text-align:center}
+  .cta-band h2{font-family:var(--display);font-weight:500;font-size:clamp(34px,4.4vw,56px);margin:0 0 22px;line-height:1}
+</style>
+</head>
+<body>
+<main>
+  <section class="about-hero">
+    <div class="wrap">
+      <h1>Za mādi stojí farmaceutka, nie marketing.</h1>
+      <div>
+        <p>Každú receptúru mādi navrhuje farmaceutka M. – absolventka farmácie na Univerzite Karlovej, ktorá počas štúdia pracovala vo farmakologickom výskume.</p>
+        <div class="sig">— Pharmacist M.</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap story">
+      <h2>Veda, ktorú poznám z laboratória</h2>
+      <div class="text">
+        <p>Farmáciu som vyštudovala na Univerzite Karlovej – najstaršej univerzite v strednej Európe a jednej z najrešpektovanejších škôl v regióne.</p>
+        <p>Už počas štúdia som pracovala vo vede a výskume na katedre farmakológie. Diplomovú prácu som tvorila priamo v laboratóriách, kde som sa venovala výskumu ľudských placentárnych explantátov.</p>
+        <p>Práca bola ohodnotená a posunutá na rigoróznu. Z laboratória si nesiem jednu vec: rešpekt k dávke, k forme suroviny a k tomu, čo o nej naozaj hovoria štúdie.</p>
+        <p>Presne tak navrhujem mādi. Pre ženy, ktoré chcú vedieť, čo užívajú.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="path">
+    <div class="wrap">
+      <h2>Cesta k mādi</h2>
+      <ol class="timeline">
+        <li><h3>Farmácia</h3><p>Štúdium farmácie na Univerzite Karlovej.</p></li>
+        <li><h3>Výskum</h3><p>Práca vo vede a výskume na katedre farmakológie.</p></li>
+        <li><h3>Laboratórium</h3><p>Diplomová práca: výskum ľudských placentárnych explantátov.</p></li>
+        <li><h3>Rigorózum</h3><p>Diplomová práca ohodnotená a posunutá na rigoróznu.</p></li>
+        <li><h3>mādi</h3><p>Doplnky výživy pre ženy, navrhnuté s rovnakou presnosťou.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head"><h2>Ako navrhujem receptúry</h2></div>
+      <div class="principles">
+        <div><h3>Presné dávky</h3><p>Na obale nájdeš konkrétne miligramy každej zložky. Žiadne skryté zmesi bez čísel.</p></div>
+        <div><h3>Formy so štúdiami</h3><p>Vyberám suroviny a ich formy podľa publikovaných humánnych štúdií, nie podľa trendov.</p></div>
+        <div><h3>Bezpečnosť na prvom mieste</h3><p>Každú zložku posudzujem aj z pohľadu interakcií a toho, pre koho produkt nie je vhodný.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <h2>Pozri, čo je vo vnútri</h2>
+      <a class="btn btn-primary" href="produkt.html?p=daily-hydrate">Zloženie Daily Hydrate</a>
+    </div>
+  </section>
+</main>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
