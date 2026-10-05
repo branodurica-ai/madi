@@ -33,16 +33,19 @@
   .story-side{display:grid;gap:40px;align-content:start}
   .path{background:var(--night);color:#F3E9EC}
   .path h2{font-family:var(--display);font-weight:400;font-size:clamp(34px,4vw,52px);margin:0 0 48px;color:#fff}
-  .timeline{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;position:relative}
-  .timeline::before{content:"";position:absolute;top:9px;left:0;right:0;height:2px;background:#3a2c31}
+  .timeline{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:48px 0;position:relative}
+  .timeline::before{display:none}
+  .timeline li::after{content:"";position:absolute;top:9px;left:0;right:0;height:1px;background:var(--line);z-index:0}
   .timeline li{position:relative;padding:40px 22px 0 0}
   .timeline li::before{content:"";position:absolute;top:2px;left:0;width:16px;height:16px;border-radius:50%;background:var(--night);border:2px solid var(--crimson)}
   .timeline li:last-child::before{background:var(--crimson)}
+  .timeline li::before{z-index:1}
   .timeline h3{font-weight:500;font-size:18px;margin:0 0 8px;color:#fff}
   .timeline p{margin:0;font-size:15px;color:#CDBFC3}
   @media (max-width:900px){
     .timeline{grid-template-columns:minmax(0,1fr);gap:28px}
-    .timeline::before{top:0;bottom:0;left:7px;right:auto;width:2px;height:auto}
+    .timeline::before{display:block;content:"";position:absolute;top:0;bottom:0;left:7px;width:1px;background:var(--line)}
+    .timeline li::after{display:none}
     .timeline li{padding:0 0 0 40px}
     .timeline li::before{top:3px}
   }
@@ -90,6 +93,9 @@
     <div class="wrap">
       <h2>Cesta k mādi</h2>
       <ol class="timeline">
+        <li><h3>Rodina farmaceutov</h3><p>Viacgeneračná história farmaceutov v rodine.</p></li>
+        <li><h3>Rodinná lekáreň</h3><p>Farmácia ako rodinné remeslo – v našej rodinnej lekárni.</p></li>
+        <li><h3>Farmaceutický laborant</h3><p>Štúdium v odbore farmaceutický laborant v Banskej Bystrici.</p></li>
         <li><h3>Farmácia</h3><p>Štúdium farmácie na Univerzite Karlovej.</p></li>
         <li><h3>Výskum</h3><p>Práca vo vede a výskume na katedre farmakológie.</p></li>
         <li><h3>Laboratórium</h3><p>Diplomová práca: výskum ľudských placentárnych explantátov.</p></li>
