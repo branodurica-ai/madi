@@ -327,7 +327,8 @@ window.MADI_PRODUCTS = [
   },
   {
     id: "set-hydrate",
-    name: "Set Hydrate + fľaša",
+    name: "Akciové balenie",
+    subtitle: "Daily Hydrate + fľaša mādi",
     line: "Začni rituál",
     tagline: "Daily Hydrate 30 stickov + fľaša 500 ml",
     pack: "Set",
@@ -335,7 +336,7 @@ window.MADI_PRODUCTS = [
     oldPrice: 54.8,
     rating: 5.0,
     reviews: 27,
-    badge: "Výhodný set",
+    badge: "Akcia",
     theme: "day",
     image: "assets/img/set-botanical.jpg",
     gallery: ["assets/img/set-botanical.jpg", "assets/img/hydrate-botanical.jpg", "assets/img/flasa-botanical.jpg"],
