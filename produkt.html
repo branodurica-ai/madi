@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=1791193784">
+<link rel="stylesheet" href="assets/css/style.css?v=1791193914">
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
@@ -22,9 +22,9 @@
     </div>
   </section>
 </main>
-<script src="assets/js/products.js?v=1791193784"></script>
-<script src="assets/js/app.js?v=1791193784"></script>
-<script src="assets/js/buybox.js?v=1791193784"></script>
+<script src="assets/js/products.js?v=1791193914"></script>
+<script src="assets/js/app.js?v=1791193914"></script>
+<script src="assets/js/buybox.js?v=1791193914"></script>
 <script>
 (function(){
   const { byId, eur, media } = window.MADI;
@@ -39,9 +39,11 @@
       <div class="comp-head"><span class="comp-kicker">Zloženie</span><h2>${c.title}</h2><p>${c.intro}</p></div>
       <div class="comp-grid" style="--n:${c.pillars.length}">${c.pillars.map((pl, i) => `
         <article class="pillar">
-          <div class="pillar-top"><span class="pillar-no">0${i + 1}</span><span class="pillar-key">${pl.key}</span></div>
-          <h3>${pl.name}</h3>
-          <p class="pillar-feel">${pl.feel}</p>
+          <div class="pillar-head">
+            <div class="pillar-top"><span class="pillar-no">0${i + 1}</span><span class="pillar-key">${pl.key}</span></div>
+            <h3>${pl.name}</h3>
+            <p class="pillar-feel">${pl.feel}</p>
+          </div>
           ${pl.items.map(it => `<div class="ing">
             <div class="ing-row"><span class="ing-name">${it.name}</span><span class="ing-dose">${it.dose}</span></div>
             <span class="ing-sub">${it.sub}</span>
