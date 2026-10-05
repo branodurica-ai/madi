@@ -1,15 +1,15 @@
 :root{
-  --porcelain:#FBF7F6;
-  --blush:#F6E2E6;
-  --rose:#EFC6CF;
-  --fuchsia:#D3195B;
-  --fuchsia-dark:#A8104A;
-  --ink:#1C1517;
-  --ink-soft:#5A4C50;
-  --night:#141012;
-  --crimson:#E0275F;
-  --stone:#ECE4DE;
-  --line:#E6D6D9;
+  --porcelain:#FAF6F2;
+  --blush:#EFE2D6;
+  --rose:#E2CDBE;
+  --fuchsia:#8A5A4A;
+  --fuchsia-dark:#6E4537;
+  --ink:#2A211D;
+  --ink-soft:#6B5B53;
+  --night:#2B221E;
+  --crimson:#D9B6A3;
+  --stone:#E9DFD5;
+  --line:#E4D6CA;
   --radius-lg:28px;
   --radius-sm:10px;
   --display:"Bodoni Moda", "Didot", Georgia, serif;
@@ -55,7 +55,7 @@ button{font:inherit;cursor:pointer}
 .btn-primary{background:var(--fuchsia);color:#fff}
 .btn-primary:hover{background:var(--fuchsia-dark)}
 .btn-ink{background:var(--ink);color:#fff}
-.btn-ink:hover{background:#3a2e31}
+.btn-ink:hover{background:#4A3B34}
 .btn-light{background:#fff;color:var(--ink)}
 .btn-light:hover{background:var(--blush)}
 .btn-ghost{background:transparent;color:inherit;border:1px solid currentColor}
@@ -111,21 +111,21 @@ section{padding:96px 0}
 
 /* generated packshot for products without photo */
 .packshot{width:100%;height:100%;display:grid;place-items:center;position:relative}
-.packshot.rose{background:linear-gradient(160deg,#F7DDE3,#E9B9C5)}
+.packshot.rose{background:linear-gradient(160deg,#F1E2D6,#DDC2B1)}
 .packshot.sand{background:linear-gradient(160deg,#F1E7DF,#DCCBBE)}
-.packshot .jar{width:46%;aspect-ratio:3/4;border-radius:22px 22px 26px 26px;background:#fff;box-shadow:0 30px 60px -30px rgba(80,20,40,.45);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative}
+.packshot .jar{width:46%;aspect-ratio:3/4;border-radius:22px 22px 26px 26px;background:#fff;box-shadow:0 30px 60px -30px rgba(70,45,30,.45);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;position:relative}
 .packshot .jar::before{content:"";position:absolute;top:-14%;left:12%;right:12%;height:16%;border-radius:12px 12px 4px 4px;background:inherit;filter:brightness(.96)}
 .packshot .jar .wm{font-size:clamp(16px,2.2vw,26px);font-weight:300;letter-spacing:.04em}
 .packshot .jar .nm{font-family:var(--display);font-size:clamp(18px,2.6vw,32px);color:var(--fuchsia)}
 .packshot.sand .jar .nm{color:#8A6A55}
 
 /* --- night section (More and More) --- */
-.night{background:var(--night);color:#F3E9EC}
+.night{background:var(--night);color:#F4ECE5}
 .night-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
 .night h2{font-family:var(--display);font-weight:500;font-size:clamp(46px,6vw,88px);line-height:.95;margin:0;color:var(--crimson)}
-.night p{color:#CDBFC3;max-width:30em}
+.night p{color:#D8C9BF;max-width:30em}
 .night-words{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0 34px}
-.night-words span{border:1px solid #4a3a3f;border-radius:999px;padding:7px 14px;font-size:14px}
+.night-words span{border:1px solid #5A4840;border-radius:999px;padding:7px 14px;font-size:14px}
 .night img{border-radius:var(--radius-lg)}
 @media (max-width:900px){.night-grid{grid-template-columns:1fr;gap:36px}}
 
@@ -192,7 +192,7 @@ section{padding:96px 0}
 .nl-form{display:flex;gap:10px;max-width:480px;margin:0 auto}
 .nl-form input{flex:1;border:0;border-radius:999px;padding:15px 22px;font:inherit;font-size:16px}
 .nl-msg{margin-top:14px;min-height:1.5em}
-.site-footer{background:var(--night);color:#CDBFC3;padding:64px 0 32px;font-size:15px}
+.site-footer{background:var(--night);color:#D8C9BF;padding:64px 0 32px;font-size:15px}
 .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
 @media (max-width:820px){.footer-grid{grid-template-columns:1fr 1fr}}
 .site-footer h4{color:#fff;font-weight:500;margin:0 0 12px;font-size:15px}
@@ -200,7 +200,7 @@ section{padding:96px 0}
 .site-footer a{text-decoration:none}
 .site-footer a:hover{color:#fff}
 .site-footer .wordmark{color:#fff;font-size:36px;display:inline-block;margin-bottom:12px}
-.legal{border-top:1px solid #2e2427;margin-top:44px;padding-top:20px;font-size:13px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.legal{border-top:1px solid #3E322C;margin-top:44px;padding-top:20px;font-size:13px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
 /* --- cart drawer --- */
 .drawer-backdrop{position:fixed;inset:0;background:rgba(20,16,18,.45);opacity:0;pointer-events:none;transition:opacity .25s;z-index:60}
@@ -264,5 +264,5 @@ ol.club-steps{padding:0;margin:0}
 .dose-table caption{padding:0 0 12px 2px}
 .nl-form input{min-width:0}
 @media (max-width:560px){.nl-form{flex-direction:column}.nl-form .btn{width:100%}}
-.packshot.plum{background:linear-gradient(160deg,#E9D6E4,#B98AAE)}
-.packshot.plum .jar .nm{color:#6E2A5E}
+.packshot.plum{background:linear-gradient(160deg,#E8D9D0,#C3A193)}
+.packshot.plum .jar .nm{color:#6E4537}

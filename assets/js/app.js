@@ -169,7 +169,7 @@
     const ctx = c.getContext("2d");
     ctx.scale(dpr, dpr);
     const g = ctx.createLinearGradient(0, 0, r.width, r.height);
-    g.addColorStop(0, "#D3195B"); g.addColorStop(1, "#F08DAE");
+    g.addColorStop(0, "#8A5A4A"); g.addColorStop(1, "#D9B6A3");
     ctx.fillStyle = g; ctx.fillRect(0, 0, r.width, r.height);
     ctx.fillStyle = "rgba(255,255,255,.9)"; ctx.font = "300 30px Jost, sans-serif"; ctx.textAlign = "center";
     ctx.fillText("mādi", r.width / 2, r.height / 2 - 4);
