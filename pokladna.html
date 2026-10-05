@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=1791219312">
+<link rel="stylesheet" href="assets/css/style.css?v=1791219821">
 <style>
   .co{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:56px;padding:48px 0 96px}
   @media (max-width:900px){.co{grid-template-columns:minmax(0,1fr)}.summary{position:static}}
@@ -54,7 +54,8 @@
       <h2>Platba</h2>
       <label class="opt"><span><input type="radio" name="pay" checked> Kartou online</span><span>zadarmo</span></label>
       <label class="opt"><span><input type="radio" name="pay"> Apple Pay / Google Pay</span><span>zadarmo</span></label>
-      <button class="btn btn-primary" style="width:100%;margin-top:18px" type="submit" id="payBtn">Objednať a zaplatiť</button>
+      <p class="ship-note" style="margin-top:18px">Odoslaním objednávky súhlasíš s <a href="obchodne-podmienky.html" target="_blank">obchodnými podmienkami</a> a berieš na vedomie <a href="ochrana-udajov.html" target="_blank">spracúvanie osobných údajov</a>.</p>
+      <button class="btn btn-primary" style="width:100%;margin-top:10px" type="submit" id="payBtn">Objednať a zaplatiť</button>
       <p class="ship-note" id="coMsg" role="status"></p>
     </form>
     <aside class="summary" aria-label="Súhrn objednávky">
@@ -65,8 +66,8 @@
     </aside>
   </div>
 </main>
-<script src="assets/js/products.js?v=1791219312"></script>
-<script src="assets/js/app.js?v=1791219312"></script>
+<script src="assets/js/products.js?v=1791219821"></script>
+<script src="assets/js/app.js?v=1791219821"></script>
 <script>
 (function(){
   const { byId, eur, store } = window.MADI;
