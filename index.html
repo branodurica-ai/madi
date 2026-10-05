@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mādi – doplnky výživy pre ženy</title>
+<meta name="description" content="mādi – Daily Hydrate, More and More a Cycle. Doplnky výživy pre ženy, navrhnuté farmaceutkou.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<main>
+  <!-- HERO: Daily Hydrate -->
+  <section class="hero" style="padding:0">
+    <div class="hero-copy">
+      <h1>Cheers, beautiful!</h1>
+      <p>Daily Hydrate – tvoj denný hydratačný rituál. Jeden stick do 500 ml vody: elektrolyty, kokosová voda, vitamín C z aceroly a skutočné ovocie. Bez kofeínu a bez pridaného cukru.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="produkt.html?p=daily-hydrate">Vyskúšať Daily Hydrate</a>
+        <a class="btn btn-ghost" href="#produkty">Všetky produkty</a>
+      </div>
+      <div class="hero-meta"><span>30 stickov</span><span>Strawberry Hibiscus</span><span>Navrhnuté farmaceutkou</span></div>
+    </div>
+    <div class="hero-img"><img src="assets/img/hydrate-box.jpg" alt="Daily Hydrate – ružová krabička a sticky Cheers, beautiful!"></div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track" id="marquee"></div>
+  </div>
+
+  <!-- PRODUCTS -->
+  <section id="produkty">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Produkty mādi</h2>
+        <p>Každý produkt rieši jednu konkrétnu vec v živote ženy. Transparentné dávky, kvalitné formy surovín.</p>
+      </div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <!-- NIGHT: More and More -->
+  <section class="night">
+    <div class="wrap night-grid">
+      <img src="assets/img/more-dark.jpg" alt="More and More – čierna dóza a krabička s červenými kapsulami" loading="lazy">
+      <div>
+        <h2>More and more.</h2>
+        <p>Female sexual wellness pre ženy naprieč vekom. Nejde len o chuť – ide o celý zážitok, od túžby až po spokojnosť.</p>
+        <div class="night-words"><span>Túžba</span><span>Vzrušenie</span><span>Prirodzená lubrikácia</span><span>Spokojnosť</span><span>Nálada</span><span>Uvoľnenie</span></div>
+        <a class="btn btn-light" href="produkt.html?p=more-and-more">Feel good. Want more.</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED BUY BOX -->
+  <section class="featured" id="featured">
+    <div class="wrap" id="buybox"></div>
+  </section>
+
+  <!-- PHARMACIST -->
+  <section class="pharma" id="farmaceutka">
+    <div class="wrap pharma-grid">
+      <div>
+        <blockquote>„Namiesto neurčitých zmesí píšeme presné dávky. Aby si vedela, čo piješ.“</blockquote>
+        <p style="color:var(--ink-soft);margin:0 0 24px">Každú receptúru mādi navrhuje farmaceutka M. Vyberáme formy surovín s oporou v štúdiách a dávky uvádzame otvorene – bez skrytých „proprietárnych“ zmesí.</p>
+        <a class="link-more" href="produkt.html?p=daily-hydrate">Pozrieť zloženie Daily Hydrate</a>
+      </div>
+      <table class="dose-table">
+        <caption>Daily Hydrate – 1 stick do 500 ml vody (pracovné zloženie)</caption>
+        <tbody>
+          <tr><th scope="row">Sodík</th><td>400 mg</td></tr>
+          <tr><th scope="row">Draslík</th><td>300 mg</td></tr>
+          <tr><th scope="row">Horčík</th><td>120 mg</td></tr>
+          <tr><th scope="row">Prášok z kokosovej vody</th><td>3 g</td></tr>
+          <tr><th scope="row">Vitamín C z aceroly</th><td>80 mg</td></tr>
+          <tr><th scope="row">Kofeín · pridaný cukor</th><td>0</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- CLUB -->
+  <section id="klub">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>mādi klub</h2>
+        <p>Za každý nákup zbieraš body a meníš ich za zľavy a darčeky. Predplatiteľky zbierajú rýchlejšie.</p>
+      </div>
+      <ol class="club-steps">
+        <li><h3>Vytvor si účet</h3><p>Hneď po registrácii dostaneš 100 bodov na prvý nákup.</p></li>
+        <li><h3>Zbieraj body</h3><p>1 € = 1 bod. Pri predplatnom dostávaš body dvojnásobne.</p></li>
+        <li><h3>Vymeň ich</h3><p>Body premeníš na zľavy, darčeky a prednostný prístup k novinkám.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="wrap">
+      <h2>Buď pri tom ako prvá</h2>
+      <p>Novinky, nové produkty a zľavy pre odberateľky. Pripravujeme aj Hydration from Within.</p>
+      <form class="nl-form" id="nlForm" novalidate>
+        <label for="nlEmail" class="sr">E-mail</label>
+        <input id="nlEmail" type="email" placeholder="tvoj@email.sk" autocomplete="email" required>
+        <button class="btn btn-ink" type="submit">Odoberať</button>
+      </form>
+      <div class="nl-msg" id="nlMsg" role="status"></div>
+    </div>
+  </section>
+</main>
+
+<script src="assets/js/products.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/buybox.js"></script>
+<script>
+(function(){
+  const { eur, media } = window.MADI;
+  // marquee
+  const words = ["Transparentné dávky","Navrhnuté farmaceutkou","Bez pridaného cukru","Kvalitné formy surovín","Pre ženy, každý deň"];
+  const once = words.map(w=>`<span>${w}</span>`).join("");
+  document.getElementById("marquee").innerHTML = once + once + once + once;
+  // grid
+  document.getElementById("grid").innerHTML = window.MADI_PRODUCTS.map(p => `
+    <a class="card" href="produkt.html?p=${p.id}">
+      <div class="card-media">${media(p)}${p.badge ? `<span class="badge ${p.available ? "" : "soon"}">${p.badge}</span>` : ""}</div>
+      <div class="card-body">
+        <span class="card-line">${p.line}</span>
+        <span class="card-name">${p.name}</span>
+        <span class="card-pack">${p.pack}</span>
+        <div class="card-foot">
+          <span class="price">${p.available ? eur(p.price) : "Čoskoro"}${p.oldPrice ? `<s>${eur(p.oldPrice)}</s>` : ""}</span>
+          ${p.rating ? `<span class="stars"><b>★★★★★</b> ${p.reviews}</span>` : ""}
+        </div>
+      </div>
+    </a>`).join("");
+  // featured buybox
+  window.MADI_BUYBOX(document.getElementById("buybox"), "daily-hydrate", false);
+  // newsletter
+  document.getElementById("nlForm").addEventListener("submit", e => {
+    e.preventDefault();
+    const v = document.getElementById("nlEmail").value.trim();
+    const m = document.getElementById("nlMsg");
+    m.textContent = /^\S+@\S+\.\S+$/.test(v) ? "Ďakujeme, si prihlásená. Prvý e-mail ti príde čoskoro." : "Zadaj e-mail v tvare meno@domena.sk.";
+  });
+})();
+</script>
+</body>
+</html>
