@@ -360,16 +360,16 @@ window.MADI_FREE_SHIPPING = 50;
 
 /* Kategórie portfólia (úvodná stránka). soon = pripravujeme, pracovné názvy */
 window.MADI_CATEGORIES = [
-  { key: "daily-glow", name: "Daily Glow", line: "Každodenný rituál", text: "Malé návyky, ktoré ťa podržia celý deň.",
+  { key: "daily-glow", bg: "radial-gradient(80% 70% at 15% 10%,#FFE1C9 0%,rgba(255,225,201,0) 70%),radial-gradient(70% 60% at 90% 95%,#FFC9D2 0%,rgba(255,201,210,0) 70%),linear-gradient(160deg,#FFF1E8,#FDE3E4)", name: "Daily Glow", line: "Každodenný rituál", text: "Malé návyky, ktoré ťa podržia celý deň.",
     products: ["daily-hydrate", "set-hydrate", "flasa-500"],
     soon: [{ name: "Main Character", text: "Ženský multivitamín" }, { name: "Sweet Dreams", text: "Horčík na večer a spánok" }] },
-  { key: "after-dark", name: "After Dark", line: "Intimita a uvoľnenie", text: "Pre chvíle, keď sa chceš cítiť naplno.",
+  { key: "after-dark", bg: "radial-gradient(80% 70% at 85% 10%,#E39AB0 0%,rgba(227,154,176,0) 70%),radial-gradient(70% 60% at 10% 95%,#EDB0C0 0%,rgba(237,176,192,0) 70%),linear-gradient(160deg,#F3CBD6,#EBB9C8)", name: "After Dark", line: "Intimita a uvoľnenie", text: "Pre chvíle, keď sa chceš cítiť naplno.",
     products: ["more-and-more"],
     soon: [{ name: "Soft Spot", text: "Hydratácia zvnútra" }, { name: "Happy Place", text: "Intímna mikroflóra" }, { name: "Keep Calm", text: "Stres a nálada" }] },
-  { key: "her-rhythm", name: "Her Rhythm", line: "Cyklus a životné fázy", text: "Podpora pre každú fázu – mesiaca aj života.",
+  { key: "her-rhythm", bg: "radial-gradient(80% 70% at 10% 90%,#DCC3EC 0%,rgba(220,195,236,0) 70%),radial-gradient(70% 60% at 90% 10%,#F6C9DD 0%,rgba(246,201,221,0) 70%),linear-gradient(160deg,#F5E3F1,#EEDAEE)", name: "Her Rhythm", line: "Cyklus a životné fázy", text: "Podpora pre každú fázu – mesiaca aj života.",
     products: ["cycle", "her-drive-35"],
     soon: [{ name: "Second Spring", text: "Perimenopauza a menopauza" }, { name: "Mama Mode", text: "Po pôrode" }] },
-  { key: "inside-out", name: "Inside Out", line: "Krása a trávenie zvnútra", text: "Krása začína tam, kde ju nevidno.",
+  { key: "inside-out", bg: "radial-gradient(80% 70% at 90% 90%,#C9E8D9 0%,rgba(201,232,217,0) 70%),radial-gradient(70% 60% at 10% 10%,#FBD2DC 0%,rgba(251,210,220,0) 70%),linear-gradient(160deg,#F1F7F1,#FBE5EA)", name: "Inside Out", line: "Krása a trávenie zvnútra", text: "Krása začína tam, kde ju nevidno.",
     products: ["digestive"],
     soon: [{ name: "Glow Getter", text: "Pleť, vlasy, nechty" }, { name: "Kozmetika mādi", text: "Coming soon" }] }
 ];

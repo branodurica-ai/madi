@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=1791208285">
+<link rel="stylesheet" href="assets/css/style.css?v=1791208464">
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
@@ -145,9 +145,9 @@
   </section>
 </main>
 
-<script src="assets/js/products.js?v=1791208285"></script>
-<script src="assets/js/app.js?v=1791208285"></script>
-<script src="assets/js/buybox.js?v=1791208285"></script>
+<script src="assets/js/products.js?v=1791208464"></script>
+<script src="assets/js/app.js?v=1791208464"></script>
+<script src="assets/js/buybox.js?v=1791208464"></script>
 <script>
 (function(){
   const { eur, media } = window.MADI;
@@ -156,17 +156,17 @@
   const once = words.map(w=>`<span>${w}</span>`).join("");
   document.getElementById("marquee").innerHTML = once + once + once + once;
   // kategórie
-  document.getElementById("cats").innerHTML = window.MADI_CATEGORIES.map((c, i) => `
-    <article class="cat">
+  document.getElementById("cats").innerHTML = window.MADI_CATEGORIES.map((c, i) => {
+    const ps = c.products.map(id => window.MADI.byId(id)).filter(Boolean);
+    return `<a class="cat" href="kategoria.html?k=${c.key}" style="background:${c.bg}">
       <span class="cat-no">0${i + 1} · ${c.line}</span>
       <h3>${c.name}</h3>
       <p class="cat-text">${c.text}</p>
-      <ul class="cat-list">
-        ${c.products.map(id => window.MADI.byId(id)).filter(Boolean).map(p => `
-          <li><a href="produkt.html?p=${p.id}"><img src="${p.image}" alt=""><span><b>${p.name}</b><small>${p.subtitle || p.line}</small></span><em>${eur(p.price)}</em></a></li>`).join("")}
-        ${c.soon.map(s => `<li class="soon"><span class="soon-dot"></span><span><b>${s.name}</b><small>${s.text}</small></span></li>`).join("")}
-      </ul>
-    </article>`).join("");
+      <div class="cat-thumbs">${ps.map(p => `<img src="${p.image}" alt="${p.name}">`).join("")}${c.soon.length ? `<span class="cat-more">+${c.soon.length}</span>` : ""}</div>
+      <span class="cat-count">${ps.length} ${ps.length === 1 ? "produkt" : ps.length < 5 ? "produkty" : "produktov"} · ${c.soon.length} pripravujeme</span>
+      <span class="cat-go">Preskúmať <span aria-hidden="true">→</span></span>
+    </a>`;
+  }).join("");
   // grid
   document.getElementById("grid").innerHTML = window.MADI_PRODUCTS.map(p => `
     <a class="card" href="produkt.html?p=${p.id}">

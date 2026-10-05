@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kategória – mādi</title>
+<meta name="description" content="Kategórie produktov mādi">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=1791208464">
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<main>
+  <section class="cat-hero" id="hero"></section>
+  <section style="border-top:0"><div class="wrap"><div class="section-head"><h2>Produkty</h2></div><div class="grid" id="grid"></div></div></section>
+  <section id="soonSec"><div class="wrap"><div class="section-head"><h2>Pripravujeme</h2><p>Novinky, na ktorých práve pracujeme. Nechaj nám e-mail v newslettri a dozvieš sa o nich ako prvá.</p></div><div class="soon-grid" id="soon"></div></div></section>
+</main>
+<script src="assets/js/products.js?v=1791208464"></script>
+<script src="assets/js/app.js?v=1791208464"></script>
+<script>
+(function(){
+  const { eur, media, byId } = window.MADI, cats = window.MADI_CATEGORIES;
+  const k = new URLSearchParams(location.search).get("k");
+  const c = cats.find(x => x.key === k) || cats[0];
+  document.title = c.name + " – mādi";
+  const hero = document.getElementById("hero"); hero.style.background = c.bg;
+  hero.innerHTML = `<div class="wrap"><span class="soon-tag">${c.line}</span><h1>${c.name}</h1><p>${c.text}</p>
+    <div class="cat-switch">${cats.map(x => `<a href="kategoria.html?k=${x.key}" ${x === c ? 'aria-current="page"' : ""}>${x.name}</a>`).join("")}</div></div>`;
+  document.getElementById("grid").innerHTML = c.products.map(byId).filter(Boolean).map(p => `
+    <a class="card" href="produkt.html?p=${p.id}">
+      <div class="card-media">${media(p)}${p.badge ? `<span class="badge">${p.badge}</span>` : ""}</div>
+      <div class="card-body"><span class="card-line">${p.line}</span><span class="card-name">${p.name}</span>${p.subtitle ? `<span class="card-sub">${p.subtitle}</span>` : ""}<span class="card-pack">${p.pack}</span>
+      <div class="card-foot"><span class="price">${eur(p.price)}${p.oldPrice ? `<s>${eur(p.oldPrice)}</s>` : ""}</span>${p.rating ? `<span class="stars"><b>★★★★★</b> ${p.reviews}</span>` : ""}</div></div>
+    </a>`).join("");
+  if (!c.soon.length) document.getElementById("soonSec").remove();
+  else document.getElementById("soon").innerHTML = c.soon.map(s => `<div class="soon-card"><span class="soon-tag">Pripravujeme</span><h3>${s.name}</h3><p>${s.text}</p></div>`).join("");
+})();
+</script>
+</body>
+</html>
