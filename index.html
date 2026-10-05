@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=1791207294">
+<link rel="stylesheet" href="assets/css/style.css?v=1791207391">
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
@@ -44,9 +44,17 @@
     </div>
   </section>
 
-  <!-- FEATURED BUY BOX -->
-  <section class="featured" id="featured">
-    <div class="wrap" id="buybox"></div>
+  <!-- FEATURE: Daily Hydrate -->
+  <section class="night night-rev">
+    <div class="wrap night-grid">
+      <img src="assets/img/pack-hydrate.jpg?v=1" alt="Daily Hydrate – krabička mādi" loading="lazy">
+      <div>
+        <h2>Cheers, beautiful!</h2>
+        <p>Daily Hydrate – tvoj denný hydratačný rituál. Jeden stick do 500 ml vody: elektrolyty, kokosová voda, vitamín C z aceroly a skutočné ovocie. Bez kofeínu a bez pridaného cukru.</p>
+        <div class="night-words"><span>Elektrolyty</span><span>Kokosová voda</span><span>Aminokyseliny</span><span>Vitamín C</span><span>Bez cukru</span></div>
+        <a class="btn btn-light" href="produkt.html?p=daily-hydrate">Spoznaj Daily Hydrate</a>
+      </div>
+    </div>
   </section>
 
   <!-- NIGHT: More and More -->
@@ -128,9 +136,9 @@
   </section>
 </main>
 
-<script src="assets/js/products.js?v=1791207294"></script>
-<script src="assets/js/app.js?v=1791207294"></script>
-<script src="assets/js/buybox.js?v=1791207294"></script>
+<script src="assets/js/products.js?v=1791207391"></script>
+<script src="assets/js/app.js?v=1791207391"></script>
+<script src="assets/js/buybox.js?v=1791207391"></script>
 <script>
 (function(){
   const { eur, media } = window.MADI;
@@ -153,7 +161,6 @@
       </div>
     </a>`).join("");
   // featured buybox
-  window.MADI_BUYBOX(document.getElementById("buybox"), "daily-hydrate", false);
   // newsletter
   document.getElementById("nlForm").addEventListener("submit", e => {
     e.preventDefault();
