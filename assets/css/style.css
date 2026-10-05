@@ -498,3 +498,18 @@ body,p,li,input,button,select,textarea{font-family:var(--sans)}
 .announce{background:#EFCFD1}
 .marquee{background:#F1D5D6}
 .ing,.dose-table,body .faq-help,body .who div,.nl-form input{background:#FFF8F8}
+
+/* Vzhľad 2.4 – baby pink */
+:root{
+  --porcelain:#F9DAE3;
+  --blush:#F9DAE3;
+  --stone:#F9DAE3;
+  --sage:#F9DAE3;
+  --night:#F9DAE3;
+  --line:#F0BFCD;
+  --rose:#E7A3B6;
+}
+.site-header{background:rgba(249,218,227,.92)}
+.announce{background:#F4C5D3}
+.marquee{background:#F6CDD9}
+.ing,.dose-table,body .faq-help,body .who div,.nl-form input{background:#FFF4F7}
