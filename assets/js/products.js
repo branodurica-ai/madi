@@ -15,7 +15,7 @@ window.MADI_PRODUCTS = [
     badge: "Novinka",
     theme: "day",
     image: "assets/img/pack-hydrate.jpg?v=1",
-    gallery: ["assets/img/pack-hydrate.jpg?v=1", "assets/img/hydrate-botanical.jpg?v=nude2"],
+    gallery: ["assets/img/pack-hydrate.jpg?v=1"],
     available: true,
     tiers: true,
     description:
@@ -80,7 +80,7 @@ window.MADI_PRODUCTS = [
     badge: "Bestseller",
     theme: "night",
     image: "assets/img/pack-more.jpg?v=1",
-    gallery: ["assets/img/pack-more.jpg?v=1", "assets/img/more-botanical.jpg?v=nude2"],
+    gallery: ["assets/img/pack-more.jpg?v=1"],
     available: true,
     tiers: true,
     description:
@@ -129,7 +129,7 @@ window.MADI_PRODUCTS = [
     badge: null,
     theme: "rose",
     image: "assets/img/pack-cycle.jpg?v=1",
-    gallery: ["assets/img/pack-cycle.jpg?v=1", "assets/img/cycle-botanical.jpg?v=nude2"],
+    gallery: ["assets/img/pack-cycle.jpg?v=1"],
     available: true,
     tiers: true,
     description:
@@ -188,7 +188,7 @@ window.MADI_PRODUCTS = [
     badge: "Novinka",
     theme: "plum",
     image: "assets/img/pack-primetime.jpg?v=1",
-    gallery: ["assets/img/pack-primetime.jpg?v=1", "assets/img/primetime-botanical.jpg?v=nude2"],
+    gallery: ["assets/img/pack-primetime.jpg?v=1"],
     available: true,
     tiers: true,
     description:
@@ -317,7 +317,7 @@ window.MADI_PRODUCTS = [
     badge: null,
     theme: "day",
     image: "assets/img/pack-flasa.jpg?v=1",
-    gallery: ["assets/img/pack-flasa.jpg?v=1", "assets/img/flasa-botanical.jpg?v=nude2"],
+    gallery: ["assets/img/pack-flasa.jpg?v=1"],
     available: true,
     tiers: false,
     description: "Ľahká fľaša s ryskami, otváranie jednou rukou. Presne na 1 stick Daily Hydrate.",
@@ -339,7 +339,7 @@ window.MADI_PRODUCTS = [
     badge: "Akcia",
     theme: "day",
     image: "assets/img/pack-set.jpg?v=1",
-    gallery: ["assets/img/pack-set.jpg?v=1", "assets/img/set-botanical.jpg?v=nude2"],
+    gallery: ["assets/img/pack-set.jpg?v=1"],
     available: true,
     tiers: false,
     description: "Všetko na začiatok denného hydratačného rituálu v jednom balení.",
