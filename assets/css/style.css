@@ -275,7 +275,7 @@ ol.club-steps{padding:0;margin:0}
 .comp-kicker{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--rose)}
 .comp-head h2{font-family:var(--display);font-weight:500;font-size:clamp(38px,5vw,64px);line-height:1;margin:10px 0 16px;color:#fff}
 .comp-head p{margin:0;color:#D9CBD0;font-size:18px}
-.comp-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.comp-grid{display:grid;grid-template-columns:repeat(var(--n,4),minmax(0,1fr));gap:20px}
 .pillar{background:#1F181B;border:1px solid #33272C;border-radius:24px;padding:26px 22px;display:flex;flex-direction:column}
 .pillar-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
 .pillar-no{font-family:var(--display);font-size:34px;color:var(--crimson);line-height:1}

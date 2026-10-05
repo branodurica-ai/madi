@@ -37,7 +37,7 @@
     cs.hidden = false;
     cs.innerHTML = `<div class="wrap">
       <div class="comp-head"><span class="comp-kicker">Zloženie</span><h2>${c.title}</h2><p>${c.intro}</p></div>
-      <div class="comp-grid">${c.pillars.map((pl, i) => `
+      <div class="comp-grid" style="--n:${c.pillars.length}">${c.pillars.map((pl, i) => `
         <article class="pillar">
           <div class="pillar-top"><span class="pillar-no">0${i + 1}</span><span class="pillar-key">${pl.key}</span></div>
           <h3>${pl.name}</h3>

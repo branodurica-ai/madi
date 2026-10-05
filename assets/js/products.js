@@ -29,7 +29,43 @@ window.MADI_PRODUCTS = [
     ],
     usage: "1 stick rozmiešaj v 500 ml vody. Primárne 1 dávka denne.",
     ingredients:
-      "Sodík 400 mg · Draslík 300 mg · Horčík 120 mg · Coconut water powder · Vitamín C (acerola) 80 mg · Vitamín B6 · Lyofilizované ovocie · AA blend 1 740 mg. Pracovné zloženie – finálne podľa výrobcu."
+      "Sodík 400 mg · Draslík 300 mg · Horčík 120 mg · Coconut water powder · Vitamín C (acerola) 80 mg · Vitamín B6 0,7 mg · Lyofilizované ovocie · AA blend 1 740 mg. Pracovné zloženie – finálne podľa výrobcu.",
+    composition: {
+      title: "Čo je v jednom sticku a prečo",
+      intro: "Voda zostáva základom. Daily Hydrate k nej pridáva len to, čo má jasný dôvod – s presnou dávkou na každej zložke.",
+      pillars: [
+        { key: "Hydration", name: "Elektrolyty", feel: "Minerály, ktoré telo stráca potom a ktoré obyčajná voda nedoplní.",
+          items: [
+            { name: "Sodík", sub: "elementárny", dose: "400 mg",
+              plain: "Pomáha telu vodu naozaj udržať, namiesto toho, aby ňou len „pretiekla“. Dávka je nastavená na bežný deň – nie na maratón, preto to nie je slaný športový nápoj." },
+            { name: "Draslík", sub: "aj z kokosovej vody", dose: "300 mg",
+              plain: "Parťák sodíka – spolu udržiavajú rovnováhu tekutín v tele. Časť pochádza priamo z kokosovej vody." },
+            { name: "Horčík", sub: "elementárny", dose: "120 mg",
+              plain: "Minerál, ktorý prispieva k zníženiu únavy a k normálnej funkcii svalov. V mnohých hydratačných produktoch chýba alebo je ho len symbolicky." }
+          ] },
+        { key: "Plant hydration", name: "Kokosová voda a ovocie", feel: "Skutočné suroviny namiesto aróm a farbív.",
+          items: [
+            { name: "Kokosová voda", sub: "prášok, Covico® alebo BIO", dose: "3 g",
+              plain: "Prirodzený zdroj minerálov s jemnou chuťou. Nie je tam „pre etiketu“ – 3 g je skutočné množstvo, nie pár miligramov." },
+            { name: "Lyofilizované ovocie", sub: "šetrne vysušené mrazom", dose: "250–500 mg",
+              plain: "Ovocie, z ktorého sa pri nízkej teplote odstránila voda. Zostane mu chuť aj prirodzená farba – preto nápoj chutí ako ovocie, nie ako chémia." }
+          ] },
+        { key: "Amino support", name: "Aminokyseliny", feel: "Naša tajná prísada – inšpirovaná najnovším výskumom hydratácie.",
+          items: [
+            { name: "AA blend", sub: "5 aminokyselín: kys. asparágová, serín, valín, treonín, tyrozín", dose: "1 740 mg",
+              plain: "Niektoré aminokyseliny sa v čreve vstrebávajú spolu so sodíkom – a voda ich nasleduje. Dávka je zámerne nízka: štúdie ukázali, že pri hydratácii viac neznamená lepšie. Nie sú to športové BCAA, ide o šetrný, každodenný blend." }
+          ] },
+        { key: "Daily nutrition", name: "Vitamíny", feel: "Malá denná podpora navyše.",
+          items: [
+            { name: "Vitamín C", sub: "z aceroly", dose: "80 mg",
+              plain: "Acerola je tropická čerešňa s vysokým obsahom vitamínu C. Prispieva k zníženiu únavy a k ochrane buniek pred oxidačným stresom." },
+            { name: "Vitamín B6", sub: "", dose: "0,7 mg",
+              plain: "Prispieva k normálnemu energetickému metabolizmu a k zníženiu únavy – presne do dní, keď ťa toho čaká veľa." }
+          ] }
+      ],
+      not: ["Bez kofeínu", "Bez pridaného cukru", "Nie je to športový iontový nápoj", "Žiadne zbytočné prísady"],
+      note: "Pracovné zloženie – finálne dávky podľa výrobcu. Doplnok výživy nie je náhradou pestrej stravy a zdravého životného štýlu."
+    }
   },
   {
     id: "more-and-more",
@@ -51,7 +87,34 @@ window.MADI_PRODUCTS = [
       "Pre ženy naprieč vekom, ktoré chcú prežívať intimitu naplno – nielen o chuti, ale o celom zážitku od túžby až po spokojnosť.",
     bullets: ["Túžba", "Vzrušenie", "Prirodzená lubrikácia", "Spokojnosť", "Nálada a uvoľnenie"],
     usage: "2 kapsuly denne. Balenie na 30 dní.",
-    ingredients: "Shatavari (extrakt z koreňa) · Ashwagandha (extrakt z koreňa) · Rhodiola rosea · L-citrulín 250 mg · L-arginín 250 mg · Senovka grécka / Libifem®. Pracovné zloženie – finálne dávky podľa výrobcu."
+    ingredients: "Shatavari 200–300 mg · Ashwagandha 200–250 mg · Rhodiola rosea 200–300 mg · L-citrulín 250 mg · L-arginín 250 mg · Senovka grécka Libifem® 600 mg. Pracovné zloženie – finálne dávky podľa výrobcu.",
+    composition: {
+      title: "Čo je vo vnútri a prečo",
+      intro: "Ženská chuť nie je len o hormónoch. Ovplyvňuje ju stres, únava, nálada aj prekrvenie. Preto More and More pracuje vo viacerých vrstvách naraz.",
+      pillars: [
+        { key: "Mood", name: "Hlava a stres", feel: "Keď je hlava plná povinností, na chuť nezostane miesto.",
+          items: [
+            { name: "Ashwagandha", sub: "extrakt z koreňa", dose: "200–250 mg",
+              plain: "Adaptogén – bylina, ktorá pomáha telu lepšie zvládať stres. V štúdiách so ženami sa skúmala práve v kombinácii so Shatavari." },
+            { name: "Rhodiola rosea", sub: "rozchodnica ružová", dose: "200–300 mg",
+              plain: "Bylina zo severských hôr, tradične používaná pri únave a vyčerpaní. Keď máš viac energie, máš viac chuti aj na seba." }
+          ] },
+        { key: "Desire", name: "Túžba", feel: "Prirodzená chuť, ktorá sa vracia postupne.",
+          items: [
+            { name: "Shatavari", sub: "extrakt z koreňa, „kráľovná ženských bylín“", dose: "200–300 mg",
+              plain: "V ajurvéde sa ženám odporúča celé stáročia. Novšie štúdie u žien ju skúmali v súvislosti so sexuálnou pohodou, náladou aj únavou." },
+            { name: "Senovka grécka", sub: "Libifem® – patentovaný extrakt zo semien", dose: "600 mg",
+              plain: "Extrakt, ktorý bol skúmaný u zdravých žien v súvislosti s túžbou a vzrušením. Patentovaná forma znamená overenú kvalitu a stálu dávku v každej kapsule." }
+          ] },
+        { key: "Blood flow", name: "Prekrvenie", feel: "Telo, ktoré reaguje.",
+          items: [
+            { name: "L-citrulín + L-arginín", sub: "aminokyseliny", dose: "250 + 250 mg",
+              plain: "Telo z nich vyrába oxid dusnatý – molekulu, ktorá pomáha cievam uvoľniť sa. Lepšie prekrvenie je jedným z dôvodov, prečo sa tieto aminokyseliny skúmajú pri ženskej sexuálnej pohode." }
+          ] }
+      ],
+      not: ["Nie je to liek", "Nie je to „tabletka na jednu noc“", "Účinok sa buduje týždňami"],
+      note: "Pracovné zloženie – finálne dávky podľa výrobcu. Nevhodné počas tehotenstva, pri snažení o otehotnenie a počas dojčenia. Ak užívaš lieky (napr. na štítnu žľazu alebo antidepresíva), poraď sa pred užívaním s lekárom alebo nás kontaktuj."
+    }
   },
   {
     id: "cycle",
@@ -71,9 +134,45 @@ window.MADI_PRODUCTS = [
     tiers: true,
     description:
       "Prémiová denná formula pre ženský cyklus. Botanické jadro z extraktu Vitex agnus-castus a ďumbiera, doplnené o nutričný základ.",
-    bullets: ["Extrakt z plodov Vitex agnus-castus", "Ďumbier", "Damascénska ruža", "Horčík"],
+    bullets: ["Vitex agnus-castus – rovnováha cyklu", "Zázvor a harmanček – komfort počas menštruácie", "Šafran a damascénska ruža – nálada", "Horčík, vápnik, zinok a vitamíny B – nutričný základ"],
     usage: "4 kapsuly denne, v náročnejších dňoch 6 kapsúl.",
-    ingredients: "Receptúra vo vývoji – finálne dávky doplníme."
+    ingredients: "Vitex agnus-castus 20 mg · Zázvor Ginfort® 133 mg · Šafran 25 mg · Harmanček 100 mg · Damascénska ruža 50–100 mg · Vápnik 400 mg · Horčík 120 mg · Zinok 8 mg · B1, B2, B6, folát, B12, D3, E, C. Pracovné zloženie (4 kapsuly) – finálne podľa výrobcu.",
+    composition: {
+      title: "Čo je vo vnútri a prečo",
+      intro: "Cyklus nie je len pár dní v mesiaci. Cycle ťa podporuje počas celého mesiaca – bylinami s dlhou tradíciou a nutričným základom, ktorý telo potrebuje.",
+      pillars: [
+        { key: "Cycle balance", name: "Rovnováha cyklu", feel: "Pokojnejšie dni pred menštruáciou.",
+          items: [
+            { name: "Vitex agnus-castus", sub: "extrakt z plodov, drmek obyčajný", dose: "20 mg",
+              plain: "Najznámejšia bylina pre ženský cyklus. Tradične sa používa na dni pred menštruáciou, keď sa telo aj nálada menia. Volíme extrakt s parametrami podobnými tým, ktoré sa skúmali v štúdiách." },
+            { name: "Vitamín B6", sub: "aktívna forma P-5-P", dose: "2–5 mg",
+              plain: "Prispieva k regulácii hormonálnej činnosti. Volíme aktívnu formu, ktorú telo nemusí ďalej premieňať." }
+          ] },
+        { key: "Comfort", name: "Komfort počas menštruácie", feel: "Ľahšie zvládnuté prvé dni.",
+          items: [
+            { name: "Zázvor", sub: "Ginfort® – koncentrovaný extrakt", dose: "133 mg",
+              plain: "Zázvor, ktorý poznáš z čaju, ale v koncentrovanej forme. Pri zvýšenej dávke (6 kapsúl) dostaneš rovnaké množstvo, aké sa používalo v štúdii o menštruačnom komforte." },
+            { name: "Harmanček", sub: "extrakt z kvetu", dose: "100 mg",
+              plain: "Upokojujúca bylina našich babičiek – pomáha telu uvoľniť sa." }
+          ] },
+        { key: "Mood", name: "Nálada", feel: "Menej výkyvov, viac seba.",
+          items: [
+            { name: "Šafran", sub: "štandardizovaný extrakt z bliznov", dose: "25 mg",
+              plain: "Najvzácnejšie korenie sveta. Jeho extrakt sa skúmal v súvislosti s náladou a pohodou žien. Stačí malá, presne štandardizovaná dávka." },
+            { name: "Damascénska ruža", sub: "extrakt z kvetu", dose: "50–100 mg",
+              plain: "Kvet s tisícročnou tradíciou v perzskom bylinkárstve. Dotvára jemnú, ženskú stránku receptúry." }
+          ] },
+        { key: "Nutrition", name: "Nutričný základ", feel: "To, čo telu počas cyklu často chýba.",
+          items: [
+            { name: "Horčík + vápnik", sub: "vápnik z vaječných škrupín OVOVITAL®", dose: "120 + 400 mg",
+              plain: "Horčík prispieva k zníženiu únavy a k normálnej funkcii svalov, vápnik k normálnej svalovej činnosti. OVOVITAL® je prírodný vápnik s dobrou využiteľnosťou." },
+            { name: "Zinok + vitamíny", sub: "zinok, B1, B2, folát, B12, D3, E, C", dose: "8 mg Zn",
+              plain: "Nutričný základ v kvalitných, telu blízkych formách – napríklad metylfolát a metylkobalamín namiesto lacných syntetických foriem." }
+          ] }
+      ],
+      not: ["Bez hormónov", "Nie je to antikoncepcia", "Nie je to liek"],
+      note: "Pracovné zloženie – finálne dávky podľa výrobcu. Uvedené dávky sú pre 4 kapsuly denne, v náročnejších dňoch 6 kapsúl (1,5× viac). Nevhodné počas tehotenstva a dojčenia. Pri hormonálnej antikoncepcii alebo liečbe neplodnosti sa pred užívaním poraď s lekárom."
+    }
   },
   {
     id: "her-drive-35",
