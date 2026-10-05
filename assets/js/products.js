@@ -65,8 +65,8 @@ window.MADI_PRODUCTS = [
     reviews: 33,
     badge: null,
     theme: "rose",
-    image: null,
-    gallery: [],
+    image: "assets/img/cycle.jpg",
+    gallery: ["assets/img/cycle.jpg"],
     available: true,
     tiers: true,
     description:
