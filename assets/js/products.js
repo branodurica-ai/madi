@@ -254,8 +254,8 @@ window.MADI_PRODUCTS = [
     reviews: 12,
     badge: "Novinka",
     theme: "sand",
-    image: "assets/img/have-your-cake.jpg?v=nude1",
-    gallery: ["assets/img/have-your-cake.jpg?v=nude1"],
+    image: "assets/img/have-your-cake.jpg?v=nude2",
+    gallery: ["assets/img/have-your-cake.jpg?v=nude2"],
     available: true,
     tiers: true,
     description:
