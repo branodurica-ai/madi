@@ -129,7 +129,7 @@ window.MADI_PRODUCTS = [
     badge: null,
     theme: "rose",
     image: "assets/img/cycle-botanical.jpg",
-    gallery: ["assets/img/cycle-botanical.jpg", "assets/img/cycle-pink.jpg"],
+    gallery: ["assets/img/cycle-botanical.jpg"],
     available: true,
     tiers: true,
     description:
@@ -187,8 +187,8 @@ window.MADI_PRODUCTS = [
     reviews: 19,
     badge: "Novinka",
     theme: "plum",
-    image: "assets/img/primetime-figs.jpg",
-    gallery: ["assets/img/primetime-figs.jpg", "assets/img/her-drive.jpg?v=2"],
+    image: "assets/img/primetime-botanical.jpg",
+    gallery: ["assets/img/primetime-botanical.jpg", "assets/img/primetime-figs.jpg"],
     available: true,
     tiers: true,
     description:
