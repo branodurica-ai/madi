@@ -80,7 +80,7 @@ window.MADI_PRODUCTS = [
     badge: "Bestseller",
     theme: "night",
     image: "assets/img/more-botanical.jpg?v=nude1",
-    gallery: ["assets/img/more-botanical.jpg?v=nude1", "assets/img/more-strawberry.jpg?v=nude1"],
+    gallery: ["assets/img/more-botanical.jpg?v=nude1"],
     available: true,
     tiers: true,
     description:
@@ -188,7 +188,7 @@ window.MADI_PRODUCTS = [
     badge: "Novinka",
     theme: "plum",
     image: "assets/img/primetime-botanical.jpg?v=nude1",
-    gallery: ["assets/img/primetime-botanical.jpg?v=nude1", "assets/img/primetime-figs.jpg?v=nude1"],
+    gallery: ["assets/img/primetime-botanical.jpg?v=nude1"],
     available: true,
     tiers: true,
     description:
