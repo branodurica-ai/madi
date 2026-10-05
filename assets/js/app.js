@@ -24,6 +24,7 @@
       <nav class="nav" id="nav" aria-label="Hlavné menu">
         <a href="index.html#produkty">Produkty</a>
         <a href="produkt.html?p=daily-hydrate">Daily Hydrate</a>
+        <a href="kozmetika.html" class="nav-soon">Kozmetika <span>Coming soon</span></a>
         <a href="o-nas.html">O nás</a>
         <a href="partneri.html">Pre partnerov</a>
         <a href="index.html#klub">mādi klub</a>

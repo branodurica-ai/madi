@@ -518,3 +518,11 @@ body,p,li,input,button,select,textarea{font-family:var(--sans)}
 .hero-full .hero-bg{object-position:50% 50%}
 @media (min-width:901px){.hero-full .hero-inner{align-items:flex-start}.hero-full .hero-copy{padding:clamp(48px,6vw,96px) 0 0;max-width:480px}}
 @media (max-width:900px){.hero-full .hero-bg{aspect-ratio:16/10;object-position:50% 50%}}
+
+/* Kozmetika – coming soon */
+.nav-soon{display:inline-flex;align-items:center;gap:8px}
+.nav-soon span{font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--rose);border-radius:999px;padding:2px 8px;color:var(--ink-soft)}
+.soon-hero{text-align:center;padding:140px 0 120px}
+.soon-hero .soon-tag{display:inline-block;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--rose);border-radius:999px;padding:6px 14px;color:var(--ink-soft);margin-bottom:24px}
+.soon-hero h1{font-family:var(--display);font-weight:400;font-size:clamp(48px,7vw,104px);line-height:1;margin:0 0 20px}
+.soon-hero p{max-width:34em;margin:0 auto 32px;color:var(--ink-soft);font-size:18px}

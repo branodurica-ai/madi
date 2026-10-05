@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kozmetika – mādi</title>
+<meta name="description" content="Kozmetika mādi – pripravujeme.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=1791202814">
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<main>
+  <section class="soon-hero">
+    <div class="wrap">
+      <span class="soon-tag">Coming soon</span>
+      <h1>mādi kozmetika</h1>
+      <p>Pripravujeme kozmetiku s rovnakou filozofiou ako naše doplnky – presné zloženie, kvalitné suroviny a nič navyše. Nechaj nám e-mail a dáme ti vedieť ako prvej.</p>
+      <form class="nl-form" id="soonForm" novalidate>
+        <label for="soonEmail" class="sr">E-mail</label>
+        <input id="soonEmail" type="email" placeholder="tvoj@email.sk" autocomplete="email" required>
+        <button class="btn btn-ink" type="submit">Dať mi vedieť</button>
+      </form>
+      <div class="nl-msg" id="soonMsg" role="status"></div>
+    </div>
+  </section>
+</main>
+<script src="assets/js/products.js?v=1791202814"></script>
+<script src="assets/js/app.js?v=1791202814"></script>
+<script>
+document.getElementById("soonForm").addEventListener("submit", e => {
+  e.preventDefault();
+  const v = document.getElementById("soonEmail").value.trim();
+  document.getElementById("soonMsg").textContent = /^\S+@\S+\.\S+$/.test(v) ? "Ďakujeme, ozveme sa ti hneď, ako bude kozmetika pripravená." : "Zadaj e-mail v tvare meno@domena.sk.";
+});
+</script>
+</body>
+</html>
