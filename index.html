@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=1791207874">
+<link rel="stylesheet" href="assets/css/style.css?v=1791208285">
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
@@ -32,6 +32,14 @@
   <div class="marquee" aria-hidden="true">
     <div class="marquee-track" id="marquee"></div>
   </div>
+
+  <!-- KATEGÓRIE -->
+  <section class="cats" id="kategorie">
+    <div class="wrap">
+      <div class="section-head"><h2>Vyber si podľa chvíle</h2><p>Štyri svety mādi – každý pre inú časť tvojho dňa a života.</p></div>
+      <div class="cats-grid" id="cats"></div>
+    </div>
+  </section>
 
   <!-- PRODUCTS -->
   <section id="produkty">
@@ -137,9 +145,9 @@
   </section>
 </main>
 
-<script src="assets/js/products.js?v=1791207874"></script>
-<script src="assets/js/app.js?v=1791207874"></script>
-<script src="assets/js/buybox.js?v=1791207874"></script>
+<script src="assets/js/products.js?v=1791208285"></script>
+<script src="assets/js/app.js?v=1791208285"></script>
+<script src="assets/js/buybox.js?v=1791208285"></script>
 <script>
 (function(){
   const { eur, media } = window.MADI;
@@ -147,6 +155,18 @@
   const words = ["Transparentné dávky","Navrhnuté farmaceutkou","Bez pridaného cukru","Kvalitné formy surovín","Patentované suroviny","Pre ženy, každý deň"];
   const once = words.map(w=>`<span>${w}</span>`).join("");
   document.getElementById("marquee").innerHTML = once + once + once + once;
+  // kategórie
+  document.getElementById("cats").innerHTML = window.MADI_CATEGORIES.map((c, i) => `
+    <article class="cat">
+      <span class="cat-no">0${i + 1} · ${c.line}</span>
+      <h3>${c.name}</h3>
+      <p class="cat-text">${c.text}</p>
+      <ul class="cat-list">
+        ${c.products.map(id => window.MADI.byId(id)).filter(Boolean).map(p => `
+          <li><a href="produkt.html?p=${p.id}"><img src="${p.image}" alt=""><span><b>${p.name}</b><small>${p.subtitle || p.line}</small></span><em>${eur(p.price)}</em></a></li>`).join("")}
+        ${c.soon.map(s => `<li class="soon"><span class="soon-dot"></span><span><b>${s.name}</b><small>${s.text}</small></span></li>`).join("")}
+      </ul>
+    </article>`).join("");
   // grid
   document.getElementById("grid").innerHTML = window.MADI_PRODUCTS.map(p => `
     <a class="card" href="produkt.html?p=${p.id}">

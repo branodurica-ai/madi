@@ -585,3 +585,29 @@ body,p,li,input,button,select,textarea{font-family:var(--sans)}
 .crumb-back{display:block}
 .article + section{border-top:0!important;padding-top:64px!important}
 .feat-kicker{display:block;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:10px}
+
+/* Kategórie na úvode */
+.cats-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+@media (max-width:1100px){.cats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.cats-grid{grid-template-columns:minmax(0,1fr)}}
+.cat{background:#FFF4F7;border-radius:24px;padding:26px 22px 18px;display:flex;flex-direction:column;box-shadow:0 1px 0 var(--line),0 24px 50px -44px rgba(90,40,50,.5)}
+.cat-no{font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+.cat h3{font-family:var(--display);font-weight:400;font-size:34px;line-height:1.05;margin:10px 0 8px}
+.cat-text{margin:0 0 18px;color:var(--ink-soft);font-size:15px;min-height:2.9em}
+.cat-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.cat-list li{border-bottom:1px solid var(--line)}
+.cat-list li:last-child{border-bottom:0}
+.cat-list a,.cat-list li.soon{display:grid;grid-template-columns:44px minmax(0,1fr) auto;align-items:center;gap:12px;padding:10px 0;text-decoration:none;color:inherit}
+.cat-list img{width:44px;height:44px;border-radius:10px;object-fit:cover}
+.cat-list b{display:block;font-weight:500;font-size:15px;line-height:1.25}
+.cat-list small{display:block;font-size:12px;color:var(--ink-soft);line-height:1.3}
+.cat-list em{font-style:normal;font-size:14px;font-weight:500;white-space:nowrap}
+.cat-list a:hover b{text-decoration:underline}
+.cat-list li.soon{opacity:.75}
+.cat-list li.soon em{font-size:10px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--rose);border-radius:999px;padding:3px 8px;color:var(--ink-soft)}
+.soon-dot{width:44px;height:44px;border-radius:10px;border:1px dashed var(--rose)}
+.cat-list li.soon{grid-template-columns:44px minmax(0,1fr)}
+.cat-list li.soon b::after{content:"Pripravujeme";margin-left:8px;font-size:9px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--rose);border-radius:999px;padding:2px 7px;color:var(--ink-soft);vertical-align:2px;white-space:nowrap}
+.cat-list li.soon b{white-space:normal}
+.cat-text{min-height:0}
+@media (min-width:1101px){.cat-text{min-height:2.9em}}

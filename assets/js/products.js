@@ -357,3 +357,19 @@ window.MADI_TIERS = [
 ];
 window.MADI_SUBSCRIBE_DISCOUNT = 0.1;
 window.MADI_FREE_SHIPPING = 50;
+
+/* Kategórie portfólia (úvodná stránka). soon = pripravujeme, pracovné názvy */
+window.MADI_CATEGORIES = [
+  { key: "daily-glow", name: "Daily Glow", line: "Každodenný rituál", text: "Malé návyky, ktoré ťa podržia celý deň.",
+    products: ["daily-hydrate", "set-hydrate", "flasa-500"],
+    soon: [{ name: "Main Character", text: "Ženský multivitamín" }, { name: "Sweet Dreams", text: "Horčík na večer a spánok" }] },
+  { key: "after-dark", name: "After Dark", line: "Intimita a uvoľnenie", text: "Pre chvíle, keď sa chceš cítiť naplno.",
+    products: ["more-and-more"],
+    soon: [{ name: "Soft Spot", text: "Hydratácia zvnútra" }, { name: "Happy Place", text: "Intímna mikroflóra" }, { name: "Keep Calm", text: "Stres a nálada" }] },
+  { key: "her-rhythm", name: "Her Rhythm", line: "Cyklus a životné fázy", text: "Podpora pre každú fázu – mesiaca aj života.",
+    products: ["cycle", "her-drive-35"],
+    soon: [{ name: "Second Spring", text: "Perimenopauza a menopauza" }, { name: "Mama Mode", text: "Po pôrode" }] },
+  { key: "inside-out", name: "Inside Out", line: "Krása a trávenie zvnútra", text: "Krása začína tam, kde ju nevidno.",
+    products: ["digestive"],
+    soon: [{ name: "Glow Getter", text: "Pleť, vlasy, nechty" }, { name: "Kozmetika mādi", text: "Coming soon" }] }
+];
