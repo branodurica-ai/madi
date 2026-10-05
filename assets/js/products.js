@@ -50,8 +50,8 @@ window.MADI_PRODUCTS = [
     description:
       "Pre ženy naprieč vekom, ktoré chcú prežívať intimitu naplno – nielen o chuti, ale o celom zážitku od túžby až po spokojnosť.",
     bullets: ["Túžba", "Vzrušenie", "Prirodzená lubrikácia", "Spokojnosť", "Nálada a uvoľnenie"],
-    usage: "2 kapsuly denne. Pracovné dávkovanie – finálne podľa výrobcu.",
-    ingredients: "Zloženie doplníme po finalizácii receptúry."
+    usage: "2 kapsuly denne. Balenie na 30 dní.",
+    ingredients: "Shatavari (extrakt z koreňa) · Ashwagandha (extrakt z koreňa) · Rhodiola rosea · L-citrulín 250 mg · L-arginín 250 mg · Senovka grécka / Libifem®. Pracovné zloženie – finálne dávky podľa výrobcu."
   },
   {
     id: "cycle",
@@ -74,6 +74,34 @@ window.MADI_PRODUCTS = [
     bullets: ["Extrakt z plodov Vitex agnus-castus", "Ďumbier", "Damascénska ruža", "Horčík"],
     usage: "4 kapsuly denne, v náročnejších dňoch 6 kapsúl.",
     ingredients: "Receptúra vo vývoji – finálne dávky doplníme."
+  },
+  {
+    id: "her-drive-35",
+    name: "Her Drive 35+",
+    line: "Cíť sa lepšie dnes",
+    tagline: "Podpor to, ako chceš starnúť zajtra",
+    pack: "Kapsuly · 30 dní",
+    price: 44.9,
+    oldPrice: null,
+    rating: 4.9,
+    reviews: 19,
+    badge: "Novinka",
+    theme: "plum",
+    image: null,
+    gallery: [],
+    available: true,
+    tiers: true,
+    description:
+      "Pokročilá denná formula pre ženy 35+, ktoré chcú viac dennej energie a kontroly – a zároveň myslia na to, ako chcú starnúť. Päť látok, každá s jasnou úlohou.",
+    bullets: [
+      "Energy – Alpinia galanga, bez kofeínu",
+      "Weight control – OEA (oleoylethanolamid)",
+      "Comfort – PEA (palmitoylethanolamid) a HydroCurc®",
+      "Age well – L-ergotioneín",
+      "Nie je to fat burner, stimulant ani hormonálna formula"
+    ],
+    usage: "3–4 kapsuly denne. Pracovné dávkovanie – finálne podľa výrobcu.",
+    ingredients: "PEA do 600 mg · OEA 250 mg · L-ergotioneín 5–10 mg · HydroCurc® 250–500 mg · Alpinia galanga 200–300 mg. Pracovné zloženie."
   },
   {
     id: "hydration-from-within",

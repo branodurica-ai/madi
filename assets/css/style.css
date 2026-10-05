@@ -264,3 +264,5 @@ ol.club-steps{padding:0;margin:0}
 .dose-table caption{padding:0 0 12px 2px}
 .nl-form input{min-width:0}
 @media (max-width:560px){.nl-form{flex-direction:column}.nl-form .btn{width:100%}}
+.packshot.plum{background:linear-gradient(160deg,#E9D6E4,#B98AAE)}
+.packshot.plum .jar .nm{color:#6E2A5E}
