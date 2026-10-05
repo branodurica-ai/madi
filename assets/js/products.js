@@ -80,7 +80,7 @@ window.MADI_PRODUCTS = [
     badge: "Bestseller",
     theme: "night",
     image: "assets/img/more-red.jpg",
-    gallery: ["assets/img/more-red.jpg", "assets/img/more-dark.jpg"],
+    gallery: ["assets/img/more-red.jpg"],
     available: true,
     tiers: true,
     description:
