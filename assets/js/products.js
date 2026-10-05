@@ -242,6 +242,69 @@ window.MADI_PRODUCTS = [
     }
   },
   {
+    id: "digestive",
+    name: "Digestive",
+    subtitle: "Femme Digestive Optimizer",
+    line: "Ľahkosť po každom jedle",
+    tagline: "Pre pohodlné trávenie bez nadúvania",
+    pack: "60 kapsúl · 30 dní",
+    price: 34.9,
+    oldPrice: null,
+    rating: 4.9,
+    reviews: 12,
+    badge: "Novinka",
+    theme: "sand",
+    image: "assets/img/digestive.jpg",
+    gallery: ["assets/img/digestive.jpg"],
+    available: true,
+    tiers: true,
+    description:
+      "Poznáš ten pocit, keď si po obede musíš povoliť gombík? Nadúvanie, ťažoba a plnosť nie sú „normálna súčasť“ ženského dňa. Digestive spája tráviace enzýmy, osvedčené byliny, kiwi a probiotikum – aby jedlo bolo radosť, nie záťaž.",
+    bullets: [
+      "Tráviace enzýmy – pomoc s bielkovinami, tukmi, škrobmi aj mliečnym cukrom",
+      "Mäta, rasca, artičok a kurkuma – byliny na pohodlné trávenie",
+      "Actazin® – patentovaný prášok zo zeleného kiwi pre pravidelnosť",
+      "Probiotikum Bacillus subtilis, ktoré prežije cestu žalúdkom",
+      "Bez preháňadiel, 2 kapsuly denne"
+    ],
+    usage: "2 kapsuly denne s hlavným jedlom. Balenie na 30 dní.",
+    ingredients: "Tráviaci enzýmový komplex 90–250 mg · Artičok 150 mg · Mäta pieporná 100 mg · Rasca 75 mg · Kurkuma 75 mg · Actazin® zelené kiwi 600 mg · Bacillus subtilis (BS50® alebo DE111®) 1–2 mld. CFU. Pracovné zloženie – finálne podľa výrobcu.",
+    composition: {
+      title: "Čo je vo vnútri a prečo",
+      intro: "Trávenie je reťaz: najprv sa jedlo musí rozložiť, potom pohodlne prejsť a nakoniec odísť. Digestive pomáha v každom kroku – jemne a bez preháňadiel.",
+      pillars: [
+        { key: "Digest", name: "Rozloženie jedla", feel: "Aby sa jedlo nezdržiavalo v žalúdku.",
+          items: [
+            { name: "Tráviace enzýmy", sub: "proteáza, amyláza, lipáza, laktáza, celuláza, α-galaktozidáza", dose: "90–250 mg",
+              plain: "Enzýmy sú „nožničky“, ktoré jedlo strihajú na malé kúsky: proteáza bielkoviny, lipáza tuky, amyláza škroby a laktáza mliečny cukor. α-galaktozidáza pomáha so strukovinami a zeleninou, po ktorých vznikajú plyny." }
+          ] },
+        { key: "Bloating", name: "Menej nadúvania", feel: "Plochšie brucho aj po väčšom jedle.",
+          items: [
+            { name: "Mäta pieporná", sub: "extrakt z listov", dose: "100 mg",
+              plain: "Bylina, ktorú poznáš z čaju po jedle. Tradične sa používa na upokojenie brucha a pri pocite nafúknutia." },
+            { name: "Rasca", sub: "extrakt z plodov", dose: "75 mg",
+              plain: "Babičky ju pridávali do kapusty a chleba nie náhodou – tradične pomáha telu zbaviť sa plynov." }
+          ] },
+        { key: "Lightness", name: "Ľahkosť po jedle", feel: "Žiadna ťažoba po mastnejšom obede.",
+          items: [
+            { name: "Artičok", sub: "extrakt z listov", dose: "150 mg",
+              plain: "Tradične podporuje tvorbu žlče – tej, ktorá pomáha stráviť tuky. Preto sa po ňom siaha po ťažších jedlách." },
+            { name: "Kurkuma", sub: "štandardizovaný extrakt, bez piperínu", dose: "75 mg",
+              plain: "Žlté korenie, ktoré dopĺňa artičok pri trávení. Zámerne bez piperínu (čierneho korenia), ktorý niektorým ženám dráždi žalúdok." }
+          ] },
+        { key: "Regularity", name: "Pravidelnosť", feel: "Brucho, ktoré funguje ako hodinky.",
+          items: [
+            { name: "Actazin®", sub: "patentovaný prášok zo zeleného kiwi", dose: "600 mg",
+              plain: "Zelené kiwi obsahuje vlákninu a vlastný enzým aktinidín. Actazin® sa skúmal pri občasnej zápche – funguje jemne, nie ako preháňadlo." },
+            { name: "Bacillus subtilis", sub: "probiotikum BS50® alebo DE111®", dose: "1–2 mld. CFU",
+              plain: "Mnohé probiotiká žalúdočná kyselina zničí skôr, ako sa dostanú do čreva. Tento kmeň vytvára ochranný „obal“ (spóru), takže cestu žalúdkom prežije a dorazí tam, kde má." }
+          ] }
+      ],
+      not: ["Bez preháňadiel", "Bez piperínu", "Nie je to liek"],
+      note: "Pracovné zloženie – finálny probiotický kmeň a dávka enzýmov podľa výrobcu. Počas tehotenstva, dojčenia a pri užívaní liekov sa pred užívaním poraď s lekárom. Ak máš dlhodobé alebo silné tráviace ťažkosti, navštív lekára."
+    }
+  },
+  {
     id: "flasa-500",
     name: "Fľaša mādi 500 ml",
     line: "Na tvoj denný stick",

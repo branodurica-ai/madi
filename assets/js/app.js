@@ -41,7 +41,7 @@
     <div class="wrap">
       <div class="footer-grid">
         <div><a href="index.html" class="wordmark">mādi</a><p style="margin:0;max-width:22em">Doplnky výživy pre ženy. Formulated by Pharmacist M.</p></div>
-        <div><h4>Obchod</h4><ul><li><a href="produkt.html?p=daily-hydrate">Daily Hydrate</a></li><li><a href="produkt.html?p=more-and-more">More and More</a></li><li><a href="produkt.html?p=cycle">Cycle</a></li><li><a href="produkt.html?p=her-drive-35">Primetime</a></li><li><a href="produkt.html?p=flasa-500">Fľaša 500 ml</a></li></ul></div>
+        <div><h4>Obchod</h4><ul><li><a href="produkt.html?p=daily-hydrate">Daily Hydrate</a></li><li><a href="produkt.html?p=more-and-more">More and More</a></li><li><a href="produkt.html?p=cycle">Cycle</a></li><li><a href="produkt.html?p=her-drive-35">Primetime</a></li><li><a href="produkt.html?p=digestive">Digestive</a></li><li><a href="produkt.html?p=flasa-500">Fľaša 500 ml</a></li></ul></div>
         <div><h4>Pomoc</h4><ul><li><a href="#">Doprava a platba</a></li><li><a href="#">Vrátenie tovaru</a></li><li><a href="faq.html">Časté otázky</a></li><li><a href="mailto:info@madi.sk">info@madi.sk</a></li><li><a href="o-nas.html">O nás</a></li><li><a href="partneri.html">Pre partnerov</a></li></ul></div>
         <div><h4>Právne</h4><ul><li><a href="#">Obchodné podmienky</a></li><li><a href="#">Ochrana osobných údajov</a></li><li><a href="#">Cookies</a></li></ul></div>
       </div>
