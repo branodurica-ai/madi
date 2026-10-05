@@ -371,3 +371,67 @@ body{background:var(--porcelain)}
 
 /* PDP */
 .gallery-main{box-shadow:0 30px 60px -45px rgba(90,40,50,.5)}
+
+/* =========================================================
+   Vzhľad 2.1 – pokojná paleta: krém + tmavý text.
+   Farbu dodávajú len produktové fotky.
+   ========================================================= */
+:root{
+  --porcelain:#FAF7F2;
+  --blush:#FAF7F2;
+  --stone:#FAF7F2;
+  --sage:#FAF7F2;
+  --rose:#D9CFC6;
+  --line:#E6DED5;
+  --ink:#2A2326;
+  --ink-soft:#6F6467;
+  --fuchsia:#2A2326;
+  --fuchsia-dark:#000;
+  --crimson:#2A2326;
+  --night:#FAF7F2;
+}
+body{background:var(--porcelain);color:var(--ink)}
+main > section + section, main > .marquee + section{border-top:1px solid var(--line)}
+.announce{background:var(--porcelain);border-bottom:1px solid var(--line);color:var(--ink-soft)}
+.hero{background:var(--porcelain)}
+.hero h1 em{color:var(--ink)}
+.marquee{background:var(--porcelain);color:var(--ink-soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.marquee-track span::after{background:var(--rose)}
+.btn-primary{background:var(--ink);color:#fff}
+.btn-primary:hover{background:#000}
+.btn-ghost{background:transparent;border-color:var(--rose)}
+.cart-count{background:var(--ink)}
+.badge{background:#fff;color:var(--ink);box-shadow:0 1px 0 var(--line)}
+.card-line,.card-sub,.buy-info .subtitle,.buy-info .line{color:var(--ink-soft)}
+.stars b{color:var(--ink)}
+.night{background:var(--porcelain);color:var(--ink)}
+.night h2{color:var(--ink)}
+.night-words span{background:transparent;border-color:var(--rose)}
+.night .btn-light{background:var(--ink);color:#fff}
+.pharma{background:var(--porcelain)}
+.comp,.comp--red{background:var(--porcelain)}
+.comp-kicker,.pillar-key{color:var(--ink-soft)}
+.pillar-no{color:var(--rose)}
+.ing{background:#fff;box-shadow:0 1px 0 var(--line),0 12px 30px -24px rgba(42,35,38,.25)}
+.ing-dose{color:var(--ink)}
+.comp-not li::before{background:var(--ink-soft)}
+.newsletter{background:var(--porcelain);color:var(--ink)}
+.nl-form input{background:#fff}
+.site-footer{background:var(--porcelain);color:var(--ink-soft);border-top:1px solid var(--line)}
+.site-footer h4,.site-footer .wordmark{color:var(--ink)}
+.site-footer a:hover{color:var(--ink)}
+.dose-table{box-shadow:0 1px 0 var(--line),0 12px 30px -24px rgba(42,35,38,.25)}
+/* podstránky */
+body .p-hero,body .faq-hero,body .about-hero,body .offer,body .contact,body .cta-band{background:var(--porcelain)}
+body .p-hero h1,body .faq-hero h1,body .about-hero h1{color:var(--ink)}
+body .path{background:var(--porcelain);color:var(--ink)}
+body .path h2,body .path h3{color:var(--ink)}
+body .path p,body .path li{color:var(--ink-soft)}
+body .timeline::before{background:var(--line)}
+body .timeline li::before{background:var(--porcelain);border-color:var(--ink)}
+body .timeline li:last-child::before{background:var(--ink)}
+body .faq-help{background:#fff;color:var(--ink);box-shadow:0 1px 0 var(--line)}
+body .faq-help h2{color:var(--ink)}
+body .faq-help p{color:var(--ink-soft)}
+body .faq-help .btn-light{background:var(--ink);color:#fff}
+body .who div{box-shadow:0 1px 0 var(--line)}
