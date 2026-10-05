@@ -619,3 +619,4 @@ body,p,li,input,button,select,textarea{font-family:var(--sans)}
 .soon-card p{margin:0;color:var(--ink-soft)}
 .cat::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.55) 1px,transparent 1.2px);background-size:14px 14px;opacity:.35;mask-image:linear-gradient(180deg,#000 0%,transparent 60%);-webkit-mask-image:linear-gradient(180deg,#000 0%,transparent 60%)}
 .cat::after{width:260px;height:260px;right:-90px;top:-90px;background:rgba(255,255,255,.4);filter:blur(30px)}
+.card-line{display:none}
