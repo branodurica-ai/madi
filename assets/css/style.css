@@ -513,3 +513,8 @@ body,p,li,input,button,select,textarea{font-family:var(--sans)}
 .announce{background:#F4C5D3}
 .marquee{background:#F6CDD9}
 .ing,.dose-table,body .faq-help,body .who div,.nl-form input{background:#FFF4F7}
+
+/* úvodná fotka s radou produktov – text hore vľavo, produkty dole ostanú voľné */
+.hero-full .hero-bg{object-position:50% 50%}
+@media (min-width:901px){.hero-full .hero-inner{align-items:flex-start}.hero-full .hero-copy{padding:clamp(48px,6vw,96px) 0 0;max-width:480px}}
+@media (max-width:900px){.hero-full .hero-bg{aspect-ratio:16/10;object-position:50% 50%}}
