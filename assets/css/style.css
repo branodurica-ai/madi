@@ -584,3 +584,4 @@ body,p,li,input,button,select,textarea{font-family:var(--sans)}
 .blog-hero + section{border-top:0!important;padding-top:24px!important}
 .crumb-back{display:block}
 .article + section{border-top:0!important;padding-top:64px!important}
+.feat-kicker{display:block;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:10px}

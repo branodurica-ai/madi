@@ -19,7 +19,7 @@ window.MADI_PRODUCTS = [
     available: true,
     tiers: true,
     description:
-      "Každodenný hydratačný rituál pre ženy – do práce, na cesty aj do náročnejších dní. Voda zostáva základom, Daily Hydrate k nej pridáva presne definované minerály a starostlivo vybrané funkčné zložky.",
+      "Každodenný hydratačný rituál pre ženy – do práce, na cesty aj do náročnejších dní. Voda zostáva základom a Cheers, beautiful! k nej pridáva presne definované minerály a starostlivo vybrané funkčné zložky.",
     bullets: [
       "Elektrolyty s transparentnými dávkami: 400 mg sodíka, 300 mg draslíka, 120 mg horčíka",
       "3 g prášku z kokosovej vody",
@@ -32,7 +32,7 @@ window.MADI_PRODUCTS = [
       "Sodík 400 mg · Draslík 300 mg · Horčík 120 mg · Coconut water powder · Vitamín C (acerola) 80 mg · Vitamín B6 0,7 mg · Lyofilizované ovocie · AA blend 1 740 mg. Pracovné zloženie – finálne podľa výrobcu.",
     composition: {
       title: "Čo je v jednom sticku a prečo",
-      intro: "Voda zostáva základom. Daily Hydrate k nej pridáva len to, čo má jasný dôvod – s presnou dávkou na každej zložke.",
+      intro: "Voda zostáva základom. Cheers, beautiful! k nej pridáva len to, čo má jasný dôvod – s presnou dávkou na každej zložke.",
       pillars: [
         { key: "Hydration", name: "Elektrolyty", feel: "Minerály, ktoré telo stráca potom a ktoré obyčajná voda nedoplní.",
           items: [
@@ -186,9 +186,9 @@ window.MADI_PRODUCTS = [
   {
     id: "set-hydrate",
     name: "Akciové balenie",
-    subtitle: "Daily Hydrate + fľaša mādi",
+    subtitle: "Cheers, beautiful! + fľaša mādi",
     line: "Začni rituál",
-    tagline: "Daily Hydrate 30 stickov + fľaša 500 ml",
+    tagline: "Cheers, beautiful! 30 stickov + fľaša 500 ml",
     pack: "Set",
     price: 47.9,
     oldPrice: 54.8,
@@ -201,9 +201,9 @@ window.MADI_PRODUCTS = [
     available: true,
     tiers: false,
     description: "Všetko na začiatok denného hydratačného rituálu v jednom balení.",
-    bullets: ["Daily Hydrate – 30 stickov", "Fľaša mādi 500 ml", "Doprava zadarmo"],
-    usage: "Podľa návodu Daily Hydrate.",
-    ingredients: "Pozri Daily Hydrate."
+    bullets: ["Cheers, beautiful! – 30 stickov", "Fľaša mādi 500 ml", "Doprava zadarmo"],
+    usage: "1 stick Cheers, beautiful! rozmiešaj v 500 ml vody."
+    ingredients: "Zloženie nájdeš pri produkte Cheers, beautiful!"
   },
   {
     id: "flasa-500",
@@ -221,9 +221,9 @@ window.MADI_PRODUCTS = [
     gallery: ["assets/img/pack-flasa.jpg?v=1"],
     available: true,
     tiers: false,
-    description: "Ľahká fľaša s ryskami, otváranie jednou rukou. Presne na 1 stick Daily Hydrate.",
+    description: "Ľahká fľaša s ryskami, otváranie jednou rukou. Presne na 1 stick Cheers, beautiful! – Smart daily hydration.",
     bullets: ["Bez BPA", "Otváranie jednou rukou", "Ryska po 100 ml"],
-    usage: "Naplň vodou a pridaj 1 stick Daily Hydrate.",
+    usage: "Naplň vodou a pridaj 1 stick Cheers, beautiful!"
     ingredients: "—"
   },
   {
