@@ -128,8 +128,8 @@ window.MADI_PRODUCTS = [
     reviews: 33,
     badge: null,
     theme: "rose",
-    image: "assets/img/cycle-pink.jpg",
-    gallery: ["assets/img/cycle-pink.jpg"],
+    image: "assets/img/cycle-botanical.jpg",
+    gallery: ["assets/img/cycle-botanical.jpg", "assets/img/cycle-pink.jpg"],
     available: true,
     tiers: true,
     description:
