@@ -530,3 +530,12 @@ body,p,li,input,button,select,textarea{font-family:var(--sans)}
 /* striedanie veľkých produktových sekcií */
 @media (min-width:901px){.night-rev .night-grid > img{order:2}}
 .night + .night{border-top:1px solid var(--line)}
+
+/* pätička: značka a slogan hore, pod tým tri stĺpce */
+.footer-brand{text-align:center;padding-bottom:40px;margin-bottom:44px;border-bottom:1px solid var(--line)}
+.footer-brand .wordmark{font-size:44px;margin-bottom:10px}
+.footer-brand p{margin:0;color:var(--ink-soft)}
+.footer-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;text-align:center}
+.footer-grid ul{justify-items:center}
+@media (max-width:620px){.footer-grid{grid-template-columns:minmax(0,1fr);gap:28px}}
+.legal{border-top-color:var(--line)}
