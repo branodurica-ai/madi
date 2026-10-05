@@ -299,3 +299,16 @@ ol.club-steps{padding:0;margin:0}
 .comp-note{margin:22px auto 0;font-size:13px;color:#9A8A8F;text-align:center;max-width:60em;line-height:1.6}
 @media (max-width:1100px){.comp-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:620px){.comp{padding:72px 0}.comp-head{text-align:left;margin-bottom:44px}.comp-grid{grid-template-columns:minmax(0,1fr);gap:48px}.comp-not{justify-content:flex-start}.comp-note{text-align:left}}
+
+/* More and More – červená, zmyselná verzia zloženia */
+.comp--red{background:radial-gradient(120% 80% at 50% 0%,#8E0A22 0%,#5E0616 55%,#2A040B 100%)}
+.comp--red .comp-kicker,.comp--red .pillar-key{color:#FF9BB0}
+.comp--red .comp-head h2,.comp--red .pillar h3,.comp--red .ing-name,.comp--red .comp-not li{color:#FFF4F6}
+.comp--red .comp-head p,.comp--red .pillar-feel{color:#F2C6CF}
+.comp--red .pillar-no{color:rgba(255,155,176,.55)}
+.comp--red .ing{background:rgba(255,255,255,.07);box-shadow:none;backdrop-filter:blur(4px)}
+.comp--red .ing p{color:#EBC9D0}
+.comp--red .ing-sub,.comp--red .comp-note{color:#C99AA4}
+.comp--red .ing-dose{color:#FF8FA6}
+.comp--red .comp-not li::before{background:#FF5C7E}
+.night{background:radial-gradient(120% 90% at 20% 0%,#7A0A1F 0%,#3A0611 60%,#1A0307 100%)}

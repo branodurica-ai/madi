@@ -79,8 +79,8 @@ window.MADI_PRODUCTS = [
     reviews: 41,
     badge: "Bestseller",
     theme: "night",
-    image: "assets/img/more-plum.jpg",
-    gallery: ["assets/img/more-plum.jpg", "assets/img/more-dark.jpg", "assets/img/more-pink.jpg"],
+    image: "assets/img/more-red.jpg",
+    gallery: ["assets/img/more-red.jpg", "assets/img/more-dark.jpg"],
     available: true,
     tiers: true,
     description:
