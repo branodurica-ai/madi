@@ -288,7 +288,7 @@ window.MADI_PRODUCTS = [
     id: "digestive",
     name: "Have Your Cake",
     subtitle: "Femme Digestive Optimizer",
-    line: "Ľahkosť po každom jedle",
+    line: "Aby ťa nerozjebalo jak ujčinu Ruženu",
     tagline: "Pre pohodlné trávenie bez nadúvania",
     pack: "60 kapsúl · 30 dní",
     price: 34.9,
