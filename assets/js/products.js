@@ -255,7 +255,7 @@ window.MADI_PRODUCTS = [
     badge: "Novinka",
     theme: "sand",
     image: "assets/img/pack-cake.jpg?v=1",
-    gallery: ["assets/img/pack-cake.jpg?v=1", "assets/img/have-your-cake.jpg?v=nude2"],
+    gallery: ["assets/img/pack-cake.jpg?v=1"],
     available: true,
     tiers: true,
     description:
