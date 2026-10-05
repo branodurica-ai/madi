@@ -4,8 +4,8 @@
 window.MADI_PRODUCTS = [
   {
     id: "daily-hydrate",
-    name: "Daily Hydrate",
-    line: "Cheers, beautiful!",
+    name: "Cheers, beautiful!",
+    line: "Smart daily hydration",
     tagline: "Smart daily hydration – 1 stick do 500 ml vody",
     pack: "30 stickov · Strawberry Hibiscus",
     price: 29.9,
