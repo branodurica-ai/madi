@@ -471,3 +471,15 @@ em,i,.hero h1 em,.night h2,.pillar-feel,.comp-head p,blockquote,.snap figcaption
 .pillar-feel{font-size:15px}
 .wordmark{font-family:var(--sans);font-weight:300}
 body,p,li,input,button,select,textarea{font-family:var(--sans)}
+
+/* Vzhľad 2.2 – jemná pudrová ružová namiesto krému */
+:root{
+  --porcelain:#F8EEEC;
+  --blush:#F8EEEC;
+  --stone:#F8EEEC;
+  --sage:#F8EEEC;
+  --night:#F8EEEC;
+  --line:#EBD9D6;
+  --rose:#DDBFBC;
+}
+.site-header{background:rgba(248,238,236,.92)}
