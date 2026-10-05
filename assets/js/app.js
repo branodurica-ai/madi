@@ -17,7 +17,7 @@
 
   /* ---------- header + footer ---------- */
   const header = `
-  <div class="announce">Doprava zadarmo pri nákupe nad <b>${window.MADI_FREE_SHIPPING} €</b> · Navrhnuté farmaceutkou</div>
+  <div class="announce">Doprava zadarmo pri nákupe nad <b>${window.MADI_FREE_SHIPPING} €</b></div>
   <header class="site-header">
     <div class="wrap">
       <a href="index.html" class="wordmark logo-c" aria-label="mādi by Pharmacist M. – domov"><span class="lw">mādi</span><span class="ls">by Pharmacist M.</span></a>
