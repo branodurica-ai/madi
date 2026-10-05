@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Časté otázky – mādi</title>
+<meta name="description" content="Odpovede na časté otázky o produktoch mādi, užívaní, doprave a predplatnom.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+  .faq-hero{background:var(--blush);padding:88px 0 72px}
+  .faq-hero h1{font-family:var(--display);font-weight:500;font-size:clamp(46px,6vw,84px);line-height:.95;margin:0 0 16px;color:var(--fuchsia)}
+  .faq-hero p{margin:0;font-size:19px;color:var(--ink-soft);max-width:34em}
+  .faq-wrap{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:64px}
+  .faq-nav{position:sticky;top:110px;align-self:start;display:grid;gap:10px}
+  .faq-nav a{text-decoration:none;color:var(--ink-soft)}
+  .faq-nav a:hover{color:var(--ink)}
+  .faq-group{margin-bottom:56px;scroll-margin-top:100px}
+  .faq-group h2{font-family:var(--display);font-weight:500;font-size:clamp(30px,3.2vw,42px);margin:0 0 12px}
+  .faq-group details{border-bottom:1px solid var(--line);padding:20px 0}
+  .faq-group summary{cursor:pointer;font-weight:500;font-size:18px;list-style:none;display:flex;justify-content:space-between;gap:20px}
+  .faq-group summary::-webkit-details-marker{display:none}
+  .faq-group summary::after{content:"+";font-weight:300;font-size:24px;line-height:1;color:var(--fuchsia)}
+  .faq-group details[open] summary::after{content:"–"}
+  .faq-group details p{margin:12px 0 0;color:var(--ink-soft);max-width:44em;line-height:1.65}
+  .faq-help{background:var(--ink);color:#F3E9EC;border-radius:var(--radius-lg);padding:36px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+  .faq-help h2{font-family:var(--display);font-weight:500;font-size:32px;margin:0 0 6px;color:#fff}
+  .faq-help p{margin:0;color:#D9CBD0}
+  @media (max-width:900px){.faq-wrap{grid-template-columns:minmax(0,1fr);gap:24px}.faq-nav{position:static;grid-auto-flow:column;overflow-x:auto;gap:18px;padding-bottom:6px}}
+</style>
+</head>
+<body>
+<main>
+  <section class="faq-hero">
+    <div class="wrap">
+      <h1>Časté otázky</h1>
+      <p>Nenašla si odpoveď? Napíš nám na <a href="mailto:info@madi.sk">info@madi.sk</a> – na otázky k zloženiu odpovedá naša farmaceutka.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap faq-wrap">
+      <nav class="faq-nav" aria-label="Kategórie otázok">
+        <a href="#uzivanie">Užívanie</a>
+        <a href="#bezpecnost">Tehotenstvo, dojčenie, lieky</a>
+        <a href="#objednavky">Objednávky a doprava</a>
+        <a href="#predplatne">Predplatné</a>
+      </nav>
+      <div>
+        <div class="faq-group" id="uzivanie">
+          <h2>Užívanie</h2>
+          <details open><summary>Kedy sa dostavia účinky?</summary>
+            <p>Závisí od produktu. Niektoré ženy pocítia rozdiel už po niekoľkých dňoch pravidelného užívania. Pri produktoch s bylinnými extraktmi – napríklad Cycle, More and More alebo Her Drive 35+ – odporúčame užívať ich pravidelne aspoň 8 týždňov, pretože práve v takom období boli tieto zložky skúmané v štúdiách.</p></details>
+          <details><summary>Môžem kombinovať viac produktov mādi naraz?</summary>
+            <p>Produkty sú navrhnuté tak, aby každý riešil inú oblasť. Ak chceš kombinovať viac produktov, napíš nám a farmaceutka ti povie, ktoré spolu dávajú zmysel.</p></details>
+          <details><summary>Kedy počas dňa ich mám užívať?</summary>
+            <p>Presné dávkovanie nájdeš pri každom produkte v časti „Ako používať“. Daily Hydrate rozmiešaj v 500 ml vody kedykoľvek počas dňa, kapsuly je najlepšie užívať s jedlom.</p></details>
+          <details><summary>Prečo uvádzate presné dávky?</summary>
+            <p>Lebo si zaslúžiš vedieť, čo užívaš. Namiesto neurčitých „zmesí“ píšeme na obal konkrétne miligramy každej zložky.</p></details>
+        </div>
+
+        <div class="faq-group" id="bezpecnost">
+          <h2>Tehotenstvo, dojčenie, lieky</h2>
+          <details open><summary>Môžem mādi užívať počas tehotenstva?</summary>
+            <p>Počas tehotenstva sú nároky tela iné, preto naše produkty v tomto období neodporúčame užívať bez konzultácie s lekárom. Rada s tebou prejdem zloženie, aby si sa s lekárom mohla rozhodnúť s istotou.</p></details>
+          <details><summary>Môžem mādi užívať počas dojčenia?</summary>
+            <p>Pri dojčení platí rovnaká opatrnosť ako v tehotenstve – niektoré zložky do tohto obdobia nepatria. Ozvi sa nám a povieme ti, ktorý produkt prichádza do úvahy po porade s lekárom.</p></details>
+          <details><summary>Môžem mādi užívať, ak beriem antidepresíva?</summary>
+            <p>Niektoré rastlinné zložky môžu ovplyvniť účinok liekov. Pred začatím užívania nás preto kontaktuj – dohodneme si telefonickú konzultáciu, na ktorej s tebou naša farmaceutka prejde konkrétny produkt aj tvoj liek a odporučí, či je potrebná aj porada s lekárom.</p></details>
+          <details><summary>Beriem iné lieky. Čo mám robiť?</summary>
+            <p>Pri pravidelnom užívaní liekov (napríklad na štítnu žľazu) sa pred začatím užívania poraď s lekárom alebo nám napíš. Radšej sa raz opýtaj navyše.</p></details>
+        </div>
+
+        <div class="faq-group" id="objednavky">
+          <h2>Objednávky a doprava</h2>
+          <details><summary>Ako rýchlo príde moja objednávka?</summary>
+            <p>Objednávky odosielame do 2 pracovných dní. Pri nákupe nad 50 € je doprava zadarmo.</p></details>
+          <details><summary>Kam doručujete?</summary>
+            <p>Na Slovensko a do Česka – na výdajné miesto Packeta alebo kuriérom na adresu.</p></details>
+          <details><summary>Môžem tovar vrátiť?</summary>
+            <p>Áno, neotvorený tovar môžeš vrátiť do 14 dní od doručenia. Z hygienických dôvodov nemôžeme prijať otvorené balenia.</p></details>
+        </div>
+
+        <div class="faq-group" id="predplatne">
+          <h2>Predplatné</h2>
+          <details><summary>Ako funguje predplatné?</summary>
+            <p>Produkt ti posielame pravidelne a ušetríš 10 % z každej dodávky. V mādi klube navyše zbieraš body dvojnásobne.</p></details>
+          <details><summary>Môžem predplatné zrušiť?</summary>
+            <p>Áno, kedykoľvek – bez poplatkov. Dodávku môžeš aj posunúť, ak ti produkt ešte zostal.</p></details>
+        </div>
+
+        <div class="faq-help">
+          <div><h2>Máš otázku k zloženiu?</h2><p>Odpovie ti priamo farmaceutka M.</p></div>
+          <a class="btn btn-light" href="mailto:info@madi.sk">Napísať na info@madi.sk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
