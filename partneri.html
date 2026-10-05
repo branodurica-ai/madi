@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pre partnerov – mādi</title>
+<meta name="description" content="Spolupráca s mādi: dodávame doplnky výživy pre ženy do lekární, e-shopov, salónov a štúdií.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+  .p-hero{background:var(--ink);color:#F3E9EC;padding:96px 0}
+  .p-hero .wrap{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:56px;align-items:center}
+  .p-hero h1{font-family:var(--display);font-weight:500;font-size:clamp(46px,6vw,86px);line-height:.95;margin:0 0 22px;color:#fff}
+  .p-hero p{font-size:19px;color:#D9CBD0;margin:0 0 30px;max-width:30em}
+  .p-hero .shelf{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .p-hero .shelf img{border-radius:18px;aspect-ratio:1/1;object-fit:cover}
+  @media (max-width:900px){.p-hero .wrap{grid-template-columns:minmax(0,1fr)}}
+
+  .who{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+  .who div{background:#fff;border-radius:22px;padding:26px 24px}
+  .who h3{font-family:var(--display);font-weight:500;font-size:26px;margin:0 0 8px}
+  .who p{margin:0;color:var(--ink-soft);font-size:16px}
+  @media (max-width:980px){.who{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media (max-width:560px){.who{grid-template-columns:minmax(0,1fr)}}
+
+  .offer{background:var(--blush)}
+  .offer-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:64px}
+  .offer ul{list-style:none;margin:0;padding:0;display:grid;gap:0}
+  .offer li{padding:20px 0;border-bottom:1px solid var(--rose);display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:24px}
+  .offer li b{font-weight:500}
+  .offer li span{color:var(--ink-soft)}
+  @media (max-width:900px){.offer-grid{grid-template-columns:minmax(0,1fr);gap:28px}.offer li{grid-template-columns:minmax(0,1fr);gap:4px}}
+
+  .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;list-style:none;margin:0;padding:0;counter-reset:s}
+  .steps li{border-top:2px solid var(--ink);padding-top:20px;counter-increment:s}
+  .steps li::before{content:counter(s);font-family:var(--display);font-size:44px;color:var(--fuchsia);display:block;line-height:1;margin-bottom:12px}
+  .steps h3{margin:0 0 6px;font-weight:500;font-size:20px}
+  .steps p{margin:0;color:var(--ink-soft)}
+  @media (max-width:820px){.steps{grid-template-columns:minmax(0,1fr)}}
+
+  .contact{background:var(--stone)}
+  .contact-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:64px}
+  @media (max-width:900px){.contact-grid{grid-template-columns:minmax(0,1fr);gap:28px}}
+  .form{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;background:#fff;border-radius:var(--radius-lg);padding:32px}
+  .form .full{grid-column:1/-1}
+  .form label{display:grid;gap:6px;font-size:14px;color:var(--ink-soft)}
+  .form input,.form select,.form textarea{font:inherit;font-size:16px;color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:13px 14px;background:#fff;min-width:0;width:100%}
+  .form textarea{min-height:120px;resize:vertical}
+  @media (max-width:560px){.form{grid-template-columns:minmax(0,1fr);padding:22px}}
+</style>
+</head>
+<body>
+<main>
+  <section class="p-hero">
+    <div class="wrap">
+      <div>
+        <h1>mādi vo vašom obchode</h1>
+        <p>Dodávame doplnky výživy pre ženy do lekární, e-shopov, salónov a štúdií. Produkty navrhnuté farmaceutkou, s presnými dávkami a obalmi, ktoré na polici upútajú.</p>
+        <a class="btn btn-primary" href="#kontakt">Chcem spolupracovať</a>
+      </div>
+      <div class="shelf">
+        <img src="assets/img/hydrate-box.jpg" alt="Daily Hydrate" loading="lazy">
+        <img src="assets/img/more-plum.jpg" alt="More and More" loading="lazy">
+        <img src="assets/img/cycle.jpg" alt="Cycle" loading="lazy">
+        <img src="assets/img/her-drive.jpg" alt="Her Drive 35+" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Pre koho je spolupráca</h2>
+        <p>Hľadáme partnerov, ktorých zákazníčky zaujíma, čo užívajú.</p>
+      </div>
+      <div class="who">
+        <div><h3>Lekárne</h3><p>Produkty s transparentným zložením, ktoré viete zákazníčke s istotou odporučiť.</p></div>
+        <div><h3>E-shopy</h3><p>Fotky, popisy a zloženie produktov dodáme pripravené na váš web.</p></div>
+        <div><h3>Salóny a kliniky</h3><p>Kozmetika, wellness a estetika – doplnok k starostlivosti, ktorú už ponúkate.</p></div>
+        <div><h3>Fitness a jóga štúdiá</h3><p>Daily Hydrate pre klientky, ktoré pri pohybe myslia aj na pitný režim.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="offer">
+    <div class="wrap offer-grid">
+      <h2 class="h2">Čo od nás dostanete</h2>
+      <ul>
+        <li><b>Veľkoobchodné ceny</b><span>Partnerské ceny podľa objemu odberu, dohodneme individuálne.</span></li>
+        <li><b>Celé portfólio</b><span>Daily Hydrate, More and More, Cycle a Her Drive 35+ – aj s novinkami, ktoré pripravujeme.</span></li>
+        <li><b>Podklady na predaj</b><span>Produktové fotky, popisy, zloženie a materiály na sociálne siete.</span></li>
+        <li><b>Odborná podpora</b><span>Na otázky k zloženiu a užívaniu odpovedá priamo naša farmaceutka.</span></li>
+        <li><b>Osobný kontakt</b><span>Jeden človek, ktorý rieši vaše objednávky a doplnenie tovaru.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head"><h2>Ako začať</h2></div>
+      <ol class="steps">
+        <li><h3>Napíšte nám</h3><p>Vyplňte krátky formulár nižšie – stačí pár údajov o vašej prevádzke.</p></li>
+        <li><h3>Pošleme ponuku</h3><p>Ozveme sa s partnerskými cenami a podmienkami spolupráce.</p></li>
+        <li><h3>Dodáme tovar</h3><p>Po dohode pošleme prvú objednávku aj s podkladmi na predaj.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="contact" id="kontakt">
+    <div class="wrap contact-grid">
+      <div>
+        <h2 class="h2" style="margin-bottom:16px">Poďme spolupracovať</h2>
+        <p style="color:var(--ink-soft);margin:0">Napíšte nám, kde predávate a o ktoré produkty máte záujem. Ozveme sa do 2 pracovných dní.</p>
+      </div>
+      <form class="form" id="partnerForm" novalidate>
+        <label>Meno a priezvisko<input name="meno" autocomplete="name" required></label>
+        <label>Názov firmy<input name="firma" autocomplete="organization" required></label>
+        <label>E-mail<input name="email" type="email" autocomplete="email" required></label>
+        <label>Telefón<input name="telefon" type="tel" autocomplete="tel"></label>
+        <label class="full">Typ prevádzky
+          <select name="typ"><option>Lekáreň</option><option>E-shop</option><option>Salón / klinika</option><option>Fitness / jóga štúdio</option><option>Iné</option></select>
+        </label>
+        <label class="full">Správa<textarea name="sprava" placeholder="Kde predávate a o ktoré produkty máte záujem"></textarea></label>
+        <div class="full"><button class="btn btn-primary" type="submit">Odoslať dopyt</button></div>
+        <p class="full ship-note" id="partnerMsg" role="status" style="margin:0"></p>
+      </form>
+    </div>
+  </section>
+</main>
+<script src="assets/js/products.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+document.getElementById("partnerForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  const f = e.target, m = document.getElementById("partnerMsg");
+  const ok = f.meno.value.trim() && f.firma.value.trim() && /^\S+@\S+\.\S+$/.test(f.email.value.trim());
+  m.textContent = ok ? "Ďakujeme, dopyt sme prijali. Ozveme sa do 2 pracovných dní." : "Vyplňte meno, názov firmy a e-mail v tvare meno@domena.sk.";
+});
+</script>
+</body>
+</html>
