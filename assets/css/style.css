@@ -483,3 +483,18 @@ body,p,li,input,button,select,textarea{font-family:var(--sans)}
   --rose:#DDBFBC;
 }
 .site-header{background:rgba(248,238,236,.92)}
+
+/* Vzhľad 2.3 – výraznejšia ružová */
+:root{
+  --porcelain:#F6E1E1;
+  --blush:#F6E1E1;
+  --stone:#F6E1E1;
+  --sage:#F6E1E1;
+  --night:#F6E1E1;
+  --line:#E8C9C9;
+  --rose:#D9A8AC;
+}
+.site-header{background:rgba(246,225,225,.92)}
+.announce{background:#EFCFD1}
+.marquee{background:#F1D5D6}
+.ing,.dose-table,body .faq-help,body .who div,.nl-form input{background:#FFF8F8}
