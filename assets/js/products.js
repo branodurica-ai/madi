@@ -104,28 +104,6 @@ window.MADI_PRODUCTS = [
     ingredients: "PEA do 600 mg · OEA 250 mg · L-ergotioneín 5–10 mg · HydroCurc® 250–500 mg · Alpinia galanga 200–300 mg. Pracovné zloženie."
   },
   {
-    id: "hydration-from-within",
-    name: "Hydration from Within",
-    line: "Hydratácia zvnútra",
-    tagline: "Intímny komfort a hydratovaná pokožka",
-    pack: "Pripravujeme",
-    price: 36.9,
-    oldPrice: null,
-    rating: null,
-    reviews: 0,
-    badge: "Pripravujeme",
-    theme: "sand",
-    image: null,
-    gallery: [],
-    available: false,
-    tiers: false,
-    description:
-      "Dlhodobá každodenná hydratácia zvnútra – pre intímny komfort aj pokožku. Hlavný smer: rakytníkový olej.",
-    bullets: ["Rakytník", "Intímny komfort", "Hydratácia pokožky"],
-    usage: "Doplníme.",
-    ingredients: "Doplníme."
-  },
-  {
     id: "flasa-500",
     name: "Fľaša mādi 500 ml",
     line: "Na tvoj denný stick",
