@@ -14,6 +14,7 @@
 <main>
   <div class="wrap crumbs"><a href="index.html">Domov</a> / <a href="index.html#produkty">Produkty</a> / <span id="crumbName"></span></div>
   <section class="pdp"><div class="wrap" id="pdp"></div></section>
+  <section class="comp" id="zlozenie" hidden></section>
   <section style="padding-top:0">
     <div class="wrap">
       <div class="section-head"><h2>Mohlo by sa ti páčiť</h2></div>
@@ -31,10 +32,30 @@
   const p = byId(id);
   if (p) { document.title = `${p.name} – mādi`; document.getElementById("crumbName").textContent = p.name; }
   window.MADI_BUYBOX(document.getElementById("pdp"), id, true);
+  const c = p && p.composition, cs = document.getElementById("zlozenie");
+  if (c) {
+    cs.hidden = false;
+    cs.innerHTML = `<div class="wrap">
+      <div class="comp-head"><span class="comp-kicker">Zloženie</span><h2>${c.title}</h2><p>${c.intro}</p></div>
+      <div class="comp-grid">${c.pillars.map((pl, i) => `
+        <article class="pillar">
+          <div class="pillar-top"><span class="pillar-no">0${i + 1}</span><span class="pillar-key">${pl.key}</span></div>
+          <h3>${pl.name}</h3>
+          <p class="pillar-feel">${pl.feel}</p>
+          ${pl.items.map(it => `<div class="ing">
+            <div class="ing-row"><span class="ing-name">${it.name}</span><span class="ing-dose">${it.dose}</span></div>
+            <span class="ing-sub">${it.sub}</span>
+            <p>${it.plain}</p>
+          </div>`).join("")}
+        </article>`).join("")}</div>
+      <ul class="comp-not">${c.not.map(n => `<li>${n}</li>`).join("")}</ul>
+      <p class="comp-note">${c.note}</p>
+    </div>`;
+  }
   document.getElementById("related").innerHTML = window.MADI_PRODUCTS.filter(x => x.id !== id).slice(0,3).map(x => `
     <a class="card" href="produkt.html?p=${x.id}">
       <div class="card-media">${media(x)}${x.badge ? `<span class="badge ${x.available ? "" : "soon"}">${x.badge}</span>` : ""}</div>
-      <div class="card-body"><span class="card-line">${x.line}</span><span class="card-name">${x.name}</span>
+      <div class="card-body"><span class="card-line">${x.line}</span><span class="card-name">${x.name}</span>${x.subtitle ? `<span class="card-sub">${x.subtitle}</span>` : ""}
       <div class="card-foot"><span class="price">${x.available ? eur(x.price) : "Čoskoro"}</span></div></div>
     </a>`).join("");
 })();

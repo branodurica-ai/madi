@@ -129,7 +129,7 @@
       <div class="card-media">${media(p)}${p.badge ? `<span class="badge ${p.available ? "" : "soon"}">${p.badge}</span>` : ""}</div>
       <div class="card-body">
         <span class="card-line">${p.line}</span>
-        <span class="card-name">${p.name}</span>
+        <span class="card-name">${p.name}</span>${p.subtitle ? `<span class="card-sub">${p.subtitle}</span>` : ""}
         <span class="card-pack">${p.pack}</span>
         <div class="card-foot">
           <span class="price">${p.available ? eur(p.price) : "Čoskoro"}${p.oldPrice ? `<s>${eur(p.oldPrice)}</s>` : ""}</span>

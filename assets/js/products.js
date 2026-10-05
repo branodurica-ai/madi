@@ -77,7 +77,8 @@ window.MADI_PRODUCTS = [
   },
   {
     id: "her-drive-35",
-    name: "Her Drive 35+",
+    name: "Primetime",
+    subtitle: "For Women 35+",
     line: "Cíť sa lepšie dnes",
     tagline: "Podpor to, ako chceš starnúť zajtra",
     pack: "Kapsuly · 30 dní",
@@ -92,16 +93,54 @@ window.MADI_PRODUCTS = [
     available: true,
     tiers: true,
     description:
-      "Pokročilá denná formula pre ženy 35+, ktoré chcú viac dennej energie a kontroly – a zároveň myslia na to, ako chcú starnúť. Päť látok, každá s jasnou úlohou.",
+      "Po 35-ke sa veci menia potichu: energia vydrží kratšie, chute sú silnejšie a regenerácia trvá dlhšie. Primetime nie je o tom, že starneš – je o tom, ako sa chceš cítiť dnes a o 10 rokov. Päť látok, štyri jasné úlohy, žiadne skryté zmesi a žiadne stimulanty.",
     bullets: [
-      "Energy – Alpinia galanga, bez kofeínu",
-      "Weight control – OEA (oleoylethanolamid)",
-      "Comfort – PEA (palmitoylethanolamid) a HydroCurc®",
-      "Age well – L-ergotioneín",
+      "Energia – Alpinia galanga, sviežosť bez kofeínu",
+      "Kontrola chutí – OEA, prirodzený signál „som sýta“",
+      "Komfort – PEA a HydroCurc® pre regeneráciu a pohodu",
+      "Zdravé starnutie – L-ergotioneín na ochranu buniek",
       "Nie je to fat burner, stimulant ani hormonálna formula"
     ],
-    usage: "3–4 kapsuly denne. Pracovné dávkovanie – finálne podľa výrobcu.",
-    ingredients: "PEA do 600 mg · OEA 250 mg · L-ergotioneín 5–10 mg · HydroCurc® 250–500 mg · Alpinia galanga 200–300 mg. Pracovné zloženie."
+    usage: "3–4 kapsuly denne s jedlom, ideálne ráno. Účinky bylinných a funkčných zložiek sa budujú postupne – daj im aspoň 8 týždňov. Pracovné dávkovanie – finálne podľa výrobcu.",
+    ingredients: "PEA 600 mg · OEA 250 mg · L-ergotioneín 5–10 mg · HydroCurc® 250–500 mg · Alpinia galanga 200–300 mg. Pracovné zloženie – finálne dávky podľa výrobcu.",
+    composition: {
+      title: "Čo je vo vnútri a prečo",
+      intro: "Žiadna „proprietárna zmes“. Každá látka má presnú dávku a jednu jasnú úlohu – tu je, čo robí, povedané ľudsky.",
+      pillars: [
+        {
+          key: "Energy", name: "Energia", feel: "Sviežejšia hlava cez deň – bez kofeínu a bez útlmu poobede.",
+          items: [
+            { name: "Alpinia galanga", sub: "extrakt z koreňa galangalu", dose: "200–300 mg",
+              plain: "Príbuzný zázvoru, ktorý sa skúmal ako alternatíva ku káve. Pomáha cítiť sa bdelšie a menej unavene – ale bez nervozity a „prepadu“, ktorý poznáš po treťom espresse." }
+          ]
+        },
+        {
+          key: "Weight control", name: "Kontrola chutí", feel: "Menej večerného „niečo by som si dala“.",
+          items: [
+            { name: "OEA", sub: "oleoyletanolamid", dose: "250 mg",
+              plain: "Tvoje telo si ho samo vyrába v čreve po jedle. Funguje ako prirodzený signál „som sýta“ – pomáha mozgu dostať správu, že energia už prišla. Nie je to stimulant ani spaľovač tukov, len podpora sýtosti a kontroly chutí." }
+          ]
+        },
+        {
+          key: "Comfort", name: "Komfort a regenerácia", feel: "Telo, ktoré sa po náročnom dni rýchlejšie vráti do pohody.",
+          items: [
+            { name: "PEA", sub: "palmitoyletanolamid", dose: "600 mg",
+              plain: "Ďalšia látka, ktorú telo pozná – vlastná signálna molekula, ktorá pomáha udržať zdravú odpoveď tela na záťaž. Ak je deň náročný, PEA pomáha telu „stíšiť hlasitosť“ a vrátiť sa do rovnováhy." },
+            { name: "HydroCurc®", sub: "kurkumín s lepšou vstrebateľnosťou", dose: "250–500 mg",
+              plain: "Bežný kurkumín sa vo vode skoro nerozpustí, a tak z neho telo veľa nevyužije. HydroCurc® je patentovaná forma, ktorá sa rozptýli oveľa lepšie – kurkumín sa tak naozaj dostane tam, kde má pomáhať pri regenerácii." }
+          ]
+        },
+        {
+          key: "Age well", name: "Zdravé starnutie", feel: "Investícia, ktorú necítiš hneď – ale tvoje bunky áno.",
+          items: [
+            { name: "L-ergotioneín", sub: "z húb", dose: "5–10 mg",
+              plain: "Telo si ho nevie vyrobiť, no má pre neho vlastný „vchod“ do buniek (transportér OCTN1) – akoby si ho výslovne pýtalo. Prispieva k ochrane buniek pred oxidačným stresom, ktorý s pribúdajúcimi rokmi pribúda tiež." }
+          ]
+        }
+      ],
+      not: ["Nie je to fat burner", "Žiadny kofeín ani stimulanty", "Bez hormónov", "Nie je to multivitamín"],
+      note: "Pracovné zloženie a dávky – finálne podľa výrobcu. Doplnok výživy nie je náhradou pestrej stravy a zdravého životného štýlu."
+    }
   },
   {
     id: "flasa-500",
