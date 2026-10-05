@@ -78,7 +78,7 @@ window.MADI_PRODUCTS = [
   {
     id: "her-drive-35",
     name: "Primetime",
-    subtitle: "For Women 35+",
+    subtitle: "Woman 35+",
     line: "Cíť sa lepšie dnes",
     tagline: "Podpor to, ako chceš starnúť zajtra",
     pack: "Kapsuly · 30 dní",
