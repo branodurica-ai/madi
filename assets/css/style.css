@@ -447,3 +447,27 @@ body .who div{box-shadow:0 1px 0 var(--line)}
   .hero-full .hero-inner{min-height:0}
   .hero-full .hero-copy{padding:36px 0 48px}
 }
+
+/* =========================================================
+   Typografia – 2 písma, jasné pravidlá
+   Bodoni Moda 400 = len nadpisy a názvy produktov
+   Jost = všetko ostatné (text, čísla, dávky, štítky)
+   Bez kurzívy; veľké písmená len pre drobné štítky.
+   ========================================================= */
+h1,h2,h3,.h2,.card-name,.buy-info h1,.buy-info h2,.pillar h3,.comp-head h2,.section-head h2,.night h2,.newsletter h2,.pharma blockquote{font-family:var(--display);font-weight:400;font-style:normal;letter-spacing:-.01em}
+em,i,.hero h1 em,.night h2,.pillar-feel,.comp-head p,blockquote,.snap figcaption,.pillar-no{font-style:normal}
+.hero h1 em{color:inherit}
+/* čísla a dávky v Joste */
+.pillar-no,.ing-dose,.club-steps li::before,.steps li::before,.price,.dose-table td{font-family:var(--sans)}
+.pillar-no{font-size:14px;font-weight:500;color:var(--ink-soft);letter-spacing:.04em}
+.ing-dose{font-size:15px;font-weight:500}
+.club-steps li::before,.steps li::before{font-size:14px;font-weight:500;color:var(--ink-soft);letter-spacing:.04em;margin-bottom:14px}
+/* jeden štýl drobných štítkov */
+.comp-kicker,.pillar-key,.card-sub,.buy-info .subtitle,.announce,.badge{font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase}
+.announce{text-transform:none;letter-spacing:.02em;font-weight:400;font-size:13px}
+.badge{letter-spacing:.06em}
+.marquee{text-transform:none;letter-spacing:.02em;font-size:15px}
+.card-line,.buy-info .line{font-family:var(--sans);font-size:13px;font-weight:400;letter-spacing:0;text-transform:none}
+.pillar-feel{font-size:15px}
+.wordmark{font-family:var(--sans);font-weight:300}
+body,p,li,input,button,select,textarea{font-family:var(--sans)}
