@@ -300,15 +300,74 @@ ol.club-steps{padding:0;margin:0}
 @media (max-width:1100px){.comp-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:620px){.comp{padding:72px 0}.comp-head{text-align:left;margin-bottom:44px}.comp-grid{grid-template-columns:minmax(0,1fr);gap:48px}.comp-not{justify-content:flex-start}.comp-note{text-align:left}}
 
-/* More and More – červená, zmyselná verzia zloženia */
-.comp--red{background:radial-gradient(120% 80% at 50% 0%,#8E0A22 0%,#5E0616 55%,#2A040B 100%)}
-.comp--red .comp-kicker,.comp--red .pillar-key{color:#FF9BB0}
-.comp--red .comp-head h2,.comp--red .pillar h3,.comp--red .ing-name,.comp--red .comp-not li{color:#FFF4F6}
-.comp--red .comp-head p,.comp--red .pillar-feel{color:#F2C6CF}
-.comp--red .pillar-no{color:rgba(255,155,176,.55)}
-.comp--red .ing{background:rgba(255,255,255,.07);box-shadow:none;backdrop-filter:blur(4px)}
-.comp--red .ing p{color:#EBC9D0}
-.comp--red .ing-sub,.comp--red .comp-note{color:#C99AA4}
-.comp--red .ing-dose{color:#FF8FA6}
-.comp--red .comp-not li::before{background:#FF5C7E}
-.night{background:radial-gradient(120% 90% at 20% 0%,#7A0A1F 0%,#3A0611 60%,#1A0307 100%)}
+
+/* =========================================================
+   Vzhľad 2.0 – „slnečné ráno“: teplý krém, svetlo, botanika
+   (ladí s novými produktovými fotkami)
+   ========================================================= */
+:root{
+  --porcelain:#FBF8F3;
+  --blush:#F7ECE7;
+  --rose:#EBC9CF;
+  --fuchsia:#C8235E;
+  --fuchsia-dark:#9E1848;
+  --ink:#2B2125;
+  --ink-soft:#6E5F62;
+  --night:#2B2125;
+  --stone:#F2EBE2;
+  --line:#EAE0D7;
+  --sage:#E4EDE6;
+  --sun:linear-gradient(115deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 35%,rgba(255,255,255,0) 70%);
+}
+body{background:var(--porcelain)}
+.announce{background:var(--stone);color:var(--ink);font-size:13px;letter-spacing:.06em}
+.site-header{background:rgba(251,248,243,.9);border-bottom-color:transparent;box-shadow:0 1px 0 var(--line)}
+.wordmark{font-weight:300}
+
+/* hero */
+.hero{background:
+  radial-gradient(60% 80% at 0% 0%,rgba(255,255,255,.9),transparent 60%),
+  linear-gradient(180deg,#F8EEEA 0%,var(--porcelain) 100%);
+  min-height:640px;gap:0;padding:32px clamp(16px,3vw,40px) 32px 0}
+.hero h1{color:var(--ink);font-weight:400}
+.hero h1 em{font-style:italic;color:var(--fuchsia)}
+.hero-img{border-radius:32px;box-shadow:0 40px 80px -50px rgba(90,40,50,.45)}
+.hero-meta span::before{height:1px;background:var(--ink-soft)}
+.btn-ghost{border-color:var(--line);background:#fff}
+@media (max-width:900px){.hero{padding:16px}.hero-img{border-radius:24px}}
+
+/* marquee */
+.marquee{background:var(--stone);color:var(--ink);font-size:14px;letter-spacing:.12em;text-transform:uppercase;padding:18px 0}
+.marquee-track span::after{width:6px;height:6px;border-radius:50%;background:var(--fuchsia)}
+
+/* product grid – 4 v rade, mäkšie karty */
+@media (min-width:1101px){.grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}}
+.card-media{border-radius:24px;background:var(--stone);box-shadow:0 24px 50px -40px rgba(90,40,50,.5)}
+.card-name{font-size:24px}
+.card-line{font-size:13px;letter-spacing:.04em}
+.badge{font-size:12px;letter-spacing:.04em;background:rgba(255,255,255,.9);backdrop-filter:blur(6px)}
+
+/* More and More na úvode – svetlá, zmyselná ružová */
+.night{background:linear-gradient(180deg,#F9E9EA 0%,#F5DEE0 100%);color:var(--ink)}
+.night h2{color:var(--fuchsia);font-weight:400;font-style:italic}
+.night p{color:var(--ink-soft)}
+.night-words span{border-color:rgba(43,33,37,.18);background:rgba(255,255,255,.5)}
+.night img{box-shadow:0 40px 80px -50px rgba(120,30,60,.5)}
+.night .btn-light{background:var(--ink);color:#fff}
+.night .btn-light:hover{background:var(--fuchsia)}
+
+/* farmaceutka, klub */
+.pharma{background:linear-gradient(180deg,var(--stone),var(--porcelain))}
+.dose-table{background:#fff;border-radius:24px;box-shadow:0 24px 50px -40px rgba(90,40,50,.45)}
+.club-steps li{border-top:1px solid var(--line)}
+
+/* newsletter – šalviová pastelka namiesto plnej fuchsie */
+.newsletter{background:var(--sage);color:var(--ink)}
+.newsletter p{opacity:1;color:var(--ink-soft)}
+.nl-form input{background:#fff;box-shadow:inset 0 0 0 1px var(--line)}
+
+/* pätička – teplá tmavá */
+.site-footer{background:#2B2125;color:#D8CBC6}
+
+/* PDP */
+.gallery-main{box-shadow:0 30px 60px -45px rgba(90,40,50,.5)}
