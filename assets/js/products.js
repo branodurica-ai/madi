@@ -202,7 +202,7 @@ window.MADI_PRODUCTS = [
     tiers: false,
     description: "Všetko na začiatok denného hydratačného rituálu v jednom balení.",
     bullets: ["Cheers, beautiful! – 30 stickov", "Fľaša mādi 500 ml", "Doprava zadarmo"],
-    usage: "1 stick Cheers, beautiful! rozmiešaj v 500 ml vody."
+    usage: "1 stick Cheers, beautiful! rozmiešaj v 500 ml vody.",
     ingredients: "Zloženie nájdeš pri produkte Cheers, beautiful!"
   },
   {
@@ -223,7 +223,7 @@ window.MADI_PRODUCTS = [
     tiers: false,
     description: "Ľahká fľaša s ryskami, otváranie jednou rukou. Presne na 1 stick Cheers, beautiful! – Smart daily hydration.",
     bullets: ["Bez BPA", "Otváranie jednou rukou", "Ryska po 100 ml"],
-    usage: "Naplň vodou a pridaj 1 stick Cheers, beautiful!"
+    usage: "Naplň vodou a pridaj 1 stick Cheers, beautiful!",
     ingredients: "—"
   },
   {
