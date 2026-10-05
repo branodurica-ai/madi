@@ -40,7 +40,7 @@
   const footer = `
   <footer class="site-footer">
     <div class="wrap">
-      <div class="footer-brand"><a href="index.html" class="wordmark logo-c"><span class="lw">mādi</span><span class="ls">by Pharmacist M.</span></a><p>Doplnky výživy pre ženy, navrhnuté farmaceutkou.</p></div>
+      <div class="footer-brand"><a href="index.html" class="wordmark logo-c"><span class="lw">mādi</span><span class="ls">by Pharmacist M.</span></a><p>Doplnky výživy pre ženy, navrhnuté farmaceutkou.</p><a class="footer-ig" href="https://www.instagram.com/madiskcz/" target="_blank" rel="noopener" aria-label="mādi na Instagrame"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@madiskcz</a></div>
       <div class="footer-grid">
         <div><h4>Obchod</h4><ul><li><a href="produkt.html?p=daily-hydrate">Cheers, beautiful!</a></li><li><a href="produkt.html?p=more-and-more">More and More</a></li><li><a href="produkt.html?p=cycle">Cycle</a></li><li><a href="produkt.html?p=her-drive-35">Primetime</a></li><li><a href="produkt.html?p=digestive">Have Your Cake</a></li><li><a href="produkt.html?p=flasa-500">Fľaša 500 ml</a></li></ul></div>
         <div><h4>Pomoc</h4><ul><li><a href="#">Doprava a platba</a></li><li><a href="#">Vrátenie tovaru</a></li><li><a href="faq.html">Časté otázky</a></li><li><a href="blog.html">Blog</a></li><li><a href="mailto:info@madi.sk">info@madi.sk</a></li><li><a href="o-nas.html">O nás</a></li><li><a href="partneri.html">Pre partnerov</a></li></ul></div>

@@ -636,3 +636,4 @@ body,p,li,input,button,select,textarea{font-family:var(--sans)}
 .footer-brand .wordmark.logo-c{font-size:56px}
 .site-header .wordmark.logo-c{align-items:flex-start}.site-header .logo-c .ls{padding-left:.04em;font-size:.22em}
 #klub .club-steps li::before{content:none;display:none}#klub .club-steps li{padding-top:18px}
+.footer-ig{display:inline-flex;align-items:center;gap:8px;margin-top:16px;text-decoration:none;color:var(--ink);font-size:15px}.footer-ig:hover{color:var(--fuchsia)}
