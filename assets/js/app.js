@@ -151,8 +151,8 @@
       <button class="icon-btn x" id="scratchClose" aria-label="Zavrieť">×</button>
       <div class="wordmark" style="font-size:26px">mādi</div>
       <h2 id="scratchTitle">Zotri a vyhraj</h2>
-      <p>Prstom alebo myšou zotri políčko a odhaľ svoju zľavu.</p>
-      <div class="ticket"><div><div class="prize">−15 %</div><div class="code">KÓD: CHEERS15</div></div><canvas id="scratchCanvas"></canvas></div>
+      <p>Prstom alebo myšou zotri políčko a odhaľ zľavu na svoju prvú objednávku.</p>
+      <div class="ticket"><div><div class="prize">−5 %</div><div class="code">KÓD: VITAJ5</div></div><canvas id="scratchCanvas"></canvas></div>
       <div class="after"><button class="btn btn-primary" id="scratchUse">Použiť zľavu</button></div>
     </div>
   </div>`;
@@ -160,7 +160,7 @@
   const wrap = document.getElementById("scratchWrap");
   function closeScratch() { wrap.classList.remove("show"); store.set("madi_scratch_seen", true); }
   document.getElementById("scratchClose").addEventListener("click", closeScratch);
-  document.getElementById("scratchUse").addEventListener("click", () => { store.set("madi_coupon", "CHEERS15"); closeScratch(); toast("Zľava CHEERS15 sa uplatní v pokladni"); });
+  document.getElementById("scratchUse").addEventListener("click", () => { store.set("madi_coupon", "VITAJ5"); closeScratch(); toast("Zľava 5 % na prvú objednávku sa uplatní v pokladni"); });
 
   function initScratch() {
     const c = document.getElementById("scratchCanvas");
