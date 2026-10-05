@@ -113,7 +113,7 @@
       <div>
         <h2 class="h2" style="margin-bottom:16px">Poďme spolupracovať</h2>
         <p style="color:var(--ink-soft);margin:0">Napíšte nám, kde predávate a o ktoré produkty máte záujem. Ozveme sa do 2 pracovných dní.</p>
-        <p style="margin:18px 0 0">Alebo nám napíšte priamo: <a href="mailto:info@madi.sk">info@madi.sk</a></p>
+        <p style="margin:18px 0 0">Alebo nám napíšte priamo: <a href="mailto:partner@madi.sk">partner@madi.sk</a></p>
       </div>
       <form class="form" id="partnerForm" novalidate>
         <label>Meno a priezvisko<input name="meno" autocomplete="name" required></label>
@@ -147,8 +147,8 @@ document.getElementById("partnerForm").addEventListener("submit", function(e){
     "",
     f.sprava.value.trim()
   ].join("\n");
-  location.href = "mailto:info@madi.sk?subject=" + encodeURIComponent("Spolupráca – " + f.firma.value.trim()) + "&body=" + encodeURIComponent(body);
-  m.textContent = "Otvorili sme váš e-mailový program s pripravenou správou – stačí ju odoslať. Ak sa neotvoril, napíšte nám na info@madi.sk.";
+  location.href = "mailto:partner@madi.sk?subject=" + encodeURIComponent("Spolupráca – " + f.firma.value.trim()) + "&body=" + encodeURIComponent(body);
+  m.textContent = "Otvorili sme váš e-mailový program s pripravenou správou – stačí ju odoslať. Ak sa neotvoril, napíšte nám na partner@madi.sk.";
 });
 </script>
 </body>
