@@ -187,8 +187,8 @@ window.MADI_PRODUCTS = [
     reviews: 19,
     badge: "Novinka",
     theme: "plum",
-    image: "assets/img/her-drive.jpg?v=2",
-    gallery: ["assets/img/her-drive.jpg?v=2"],
+    image: "assets/img/primetime-figs.jpg",
+    gallery: ["assets/img/primetime-figs.jpg", "assets/img/her-drive.jpg?v=2"],
     available: true,
     tiers: true,
     description:
