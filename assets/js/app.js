@@ -24,7 +24,6 @@
       <nav class="nav" id="nav" aria-label="Hlavné menu">
         <a href="index.html#produkty">Produkty</a>
         <a href="produkt.html?p=daily-hydrate">Daily Hydrate</a>
-        <a href="produkt.html?p=more-and-more">More and More</a>
         <a href="o-nas.html">O nás</a>
         <a href="index.html#klub">mādi klub</a>
       </nav>
