@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Článok – mādi blog</title>
+<meta name="description" content="Blog mādi">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=1791207126">
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<main>
+  <article class="article">
+    <div class="wrap article-wrap" id="art"></div>
+  </article>
+  <section style="padding-top:0"><div class="wrap"><div class="section-head"><h2>Ďalšie články</h2><a class="link-more" href="blog.html">Všetky články</a></div><div class="blog-grid" id="more"></div></div></section>
+  <section class="blog-community">
+    <div class="wrap">
+      <h2>Píšeme pre teba – a s tebou</h2>
+      <p>Máš tému, o ktorej by si si chcela prečítať? Alebo otázku na farmaceutku? Napíš nám a najlepšie otázky spracujeme v ďalšom článku.</p>
+      <a class="btn btn-primary" href="mailto:info@madi.sk?subject=T%C3%A9ma%20na%20blog">Navrhnúť tému</a>
+    </div>
+  </section>
+</main>
+<script src="assets/js/products.js?v=1791207126"></script>
+<script src="assets/js/app.js?v=1791207126"></script>
+<script src="assets/js/blog.js?v=1791207126"></script>
+<script>
+(function(){
+  const posts=window.MADI_BLOG, slug=new URLSearchParams(location.search).get("a");
+  const p=posts.find(x=>x.slug===slug)||posts[0];
+  document.title=p.title+" – mādi blog";
+  const r=b=>b[0]==="ul"?`<ul>${b[1].map(i=>`<li>${i}</li>`).join("")}</ul>`:`<${b[0]}>${b[1]}</${b[0]}>`;
+  const prod=p.product&&window.MADI.byId(p.product);
+  document.getElementById("art").innerHTML=`
+    <a class="crumb-back" href="blog.html">← Blog</a>
+    <span class="post-meta">${p.category} · ${p.read} čítania · ${p.date}</span>
+    <h1>${p.title}</h1>
+    <p class="article-lead">${p.excerpt}</p>
+    <div class="article-author"><img src="assets/img/farmaceutka-m.jpg" alt=""><div><b>Farmaceutka M.</b><span>Zakladateľka mādi</span></div></div>
+    <div class="article-body">${p.body.map(r).join("")}</div>
+    ${prod?`<a class="article-product" href="produkt.html?p=${prod.id}"><img src="${prod.image}" alt=""><div><span class="post-meta">Súvisiaci produkt</span><b>${prod.name}</b><span>${prod.tagline}</span></div><span class="btn btn-primary">Pozrieť</span></a>`:""}
+    <p class="article-note">Článok má informatívny charakter a nenahrádza odbornú lekársku radu.</p>`;
+  document.getElementById("more").innerHTML=posts.filter(x=>x!==p).slice(0,3).map(x=>`
+    <a class="post-card" href="clanok.html?a=${x.slug}"><div class="post-media"><img src="${x.image}" alt="" loading="lazy"></div>
+    <span class="post-meta">${x.category} · ${x.read}</span><h3>${x.title}</h3><p>${x.excerpt}</p></a>`).join("");
+})();
+</script>
+</body>
+</html>

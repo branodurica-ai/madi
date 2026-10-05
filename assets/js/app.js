@@ -25,6 +25,7 @@
         <a href="index.html#produkty">Produkty</a>
         <a href="produkt.html?p=daily-hydrate">Daily Hydrate</a>
         <a href="kozmetika.html" class="nav-soon">Kozmetika <span>Coming soon</span></a>
+        <a href="blog.html">Blog</a>
         <a href="o-nas.html">O nás</a>
         <a href="partneri.html">Pre partnerov</a>
         <a href="index.html#klub">mādi klub</a>
@@ -43,7 +44,7 @@
       <div class="footer-brand"><a href="index.html" class="wordmark">mādi</a><p>Doplnky výživy pre ženy, navrhnuté farmaceutkou.</p></div>
       <div class="footer-grid">
         <div><h4>Obchod</h4><ul><li><a href="produkt.html?p=daily-hydrate">Daily Hydrate</a></li><li><a href="produkt.html?p=more-and-more">More and More</a></li><li><a href="produkt.html?p=cycle">Cycle</a></li><li><a href="produkt.html?p=her-drive-35">Primetime</a></li><li><a href="produkt.html?p=digestive">Have Your Cake</a></li><li><a href="produkt.html?p=flasa-500">Fľaša 500 ml</a></li></ul></div>
-        <div><h4>Pomoc</h4><ul><li><a href="#">Doprava a platba</a></li><li><a href="#">Vrátenie tovaru</a></li><li><a href="faq.html">Časté otázky</a></li><li><a href="mailto:info@madi.sk">info@madi.sk</a></li><li><a href="o-nas.html">O nás</a></li><li><a href="partneri.html">Pre partnerov</a></li></ul></div>
+        <div><h4>Pomoc</h4><ul><li><a href="#">Doprava a platba</a></li><li><a href="#">Vrátenie tovaru</a></li><li><a href="faq.html">Časté otázky</a></li><li><a href="blog.html">Blog</a></li><li><a href="mailto:info@madi.sk">info@madi.sk</a></li><li><a href="o-nas.html">O nás</a></li><li><a href="partneri.html">Pre partnerov</a></li></ul></div>
         <div><h4>Právne</h4><ul><li><a href="#">Obchodné podmienky</a></li><li><a href="#">Ochrana osobných údajov</a></li><li><a href="#">Cookies</a></li></ul></div>
       </div>
       <div class="legal"><span>© ${new Date().getFullYear()} mādi. Výživový doplnok nie je náhradou pestrej stravy.</span><span>Pracovná verzia webu – ceny a texty nie sú finálne.</span></div>

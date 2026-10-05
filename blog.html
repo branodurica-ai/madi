@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog – mādi</title>
+<meta name="description" content="Blog mādi: zrozumiteľne o zložení, ženskom tele a každodennej starostlivosti.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=1791207126">
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<main>
+  <section class="blog-hero">
+    <div class="wrap">
+      <span class="soon-tag">mādi journal</span>
+      <h1>Blog</h1>
+      <p>Zrozumiteľne o zložení, ženskom tele a každodennej starostlivosti. Píše farmaceutka M.</p>
+      <div class="blog-filter" id="filter"></div>
+    </div>
+  </section>
+  <section style="padding-top:0">
+    <div class="wrap"><div class="blog-grid" id="posts"></div></div>
+  </section>
+  <section class="blog-community">
+    <div class="wrap">
+      <h2>Píšeme pre teba – a s tebou</h2>
+      <p>Máš tému, o ktorej by si si chcela prečítať? Alebo otázku na farmaceutku? Napíš nám a najlepšie otázky spracujeme v ďalšom článku.</p>
+      <a class="btn btn-primary" href="mailto:info@madi.sk?subject=T%C3%A9ma%20na%20blog">Navrhnúť tému</a>
+    </div>
+  </section>
+</main>
+<script src="assets/js/products.js?v=1791207126"></script>
+<script src="assets/js/app.js?v=1791207126"></script>
+<script src="assets/js/blog.js?v=1791207126"></script>
+<script>
+(function(){
+  const posts=window.MADI_BLOG, f=document.getElementById("filter"), g=document.getElementById("posts");
+  const cats=["Všetko",...new Set(posts.map(p=>p.category))]; let cur="Všetko";
+  function draw(){
+    f.innerHTML=cats.map(c=>`<button type="button" aria-pressed="${c===cur}" data-c="${c}">${c}</button>`).join("");
+    g.innerHTML=posts.filter(p=>cur==="Všetko"||p.category===cur).map(p=>`
+      <a class="post-card" href="clanok.html?a=${p.slug}">
+        <div class="post-media"><img src="${p.image}" alt="" loading="lazy"></div>
+        <span class="post-meta">${p.category} · ${p.read}</span>
+        <h3>${p.title}</h3><p>${p.excerpt}</p><span class="link-more">Čítať ďalej</span>
+      </a>`).join("");
+  }
+  f.addEventListener("click",e=>{const b=e.target.closest("button");if(b){cur=b.dataset.c;draw();}});
+  draw();
+})();
+</script>
+</body>
+</html>
