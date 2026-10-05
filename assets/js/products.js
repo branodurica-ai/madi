@@ -117,64 +117,6 @@ window.MADI_PRODUCTS = [
     }
   },
   {
-    id: "cycle",
-    name: "Cycle",
-    line: "V každej fáze cyklu",
-    tagline: "Daily women's cycle support",
-    pack: "120 kapsúl · 30 dní",
-    price: 34.9,
-    oldPrice: null,
-    rating: 4.9,
-    reviews: 33,
-    badge: null,
-    theme: "rose",
-    image: "assets/img/pack-cycle.jpg?v=1",
-    gallery: ["assets/img/pack-cycle.jpg?v=1"],
-    available: true,
-    tiers: true,
-    description:
-      "Prémiová denná formula pre ženský cyklus. Botanické jadro z extraktu Vitex agnus-castus a ďumbiera, doplnené o nutričný základ.",
-    bullets: ["Vitex agnus-castus – rovnováha cyklu", "Zázvor a harmanček – komfort počas menštruácie", "Šafran a damascénska ruža – nálada", "Horčík, vápnik, zinok a vitamíny B – nutričný základ"],
-    usage: "4 kapsuly denne, v náročnejších dňoch 6 kapsúl.",
-    ingredients: "Vitex agnus-castus 20 mg · Zázvor Ginfort® 133 mg · Šafran 25 mg · Harmanček 100 mg · Damascénska ruža 50–100 mg · Vápnik 400 mg · Horčík 120 mg · Zinok 8 mg · B1, B2, B6, folát, B12, D3, E, C. Pracovné zloženie (4 kapsuly) – finálne podľa výrobcu.",
-    composition: {
-      title: "Čo je vo vnútri a prečo",
-      intro: "Cyklus nie je len pár dní v mesiaci. Cycle ťa podporuje počas celého mesiaca – bylinami s dlhou tradíciou a nutričným základom, ktorý telo potrebuje.",
-      pillars: [
-        { key: "Cycle balance", name: "Rovnováha cyklu", feel: "Pokojnejšie dni pred menštruáciou.",
-          items: [
-            { name: "Vitex agnus-castus", sub: "extrakt z plodov, drmek obyčajný", dose: "20 mg",
-              plain: "Najznámejšia bylina pre ženský cyklus. Tradične sa používa na dni pred menštruáciou, keď sa telo aj nálada menia. Volíme extrakt s parametrami podobnými tým, ktoré sa skúmali v štúdiách." },
-            { name: "Vitamín B6", sub: "aktívna forma P-5-P", dose: "2–5 mg",
-              plain: "Prispieva k regulácii hormonálnej činnosti. Volíme aktívnu formu, ktorú telo nemusí ďalej premieňať." }
-          ] },
-        { key: "Comfort", name: "Komfort počas menštruácie", feel: "Ľahšie zvládnuté prvé dni.",
-          items: [
-            { name: "Zázvor", sub: "Ginfort® – koncentrovaný extrakt", dose: "133 mg",
-              plain: "Zázvor, ktorý poznáš z čaju, ale v koncentrovanej forme. Pri zvýšenej dávke (6 kapsúl) dostaneš rovnaké množstvo, aké sa používalo v štúdii o menštruačnom komforte." },
-            { name: "Harmanček", sub: "extrakt z kvetu", dose: "100 mg",
-              plain: "Upokojujúca bylina našich babičiek – pomáha telu uvoľniť sa." }
-          ] },
-        { key: "Mood", name: "Nálada", feel: "Menej výkyvov, viac seba.",
-          items: [
-            { name: "Šafran", sub: "štandardizovaný extrakt z bliznov", dose: "25 mg",
-              plain: "Najvzácnejšie korenie sveta. Jeho extrakt sa skúmal v súvislosti s náladou a pohodou žien. Stačí malá, presne štandardizovaná dávka." },
-            { name: "Damascénska ruža", sub: "extrakt z kvetu", dose: "50–100 mg",
-              plain: "Kvet s tisícročnou tradíciou v perzskom bylinkárstve. Dotvára jemnú, ženskú stránku receptúry." }
-          ] },
-        { key: "Nutrition", name: "Nutričný základ", feel: "To, čo telu počas cyklu často chýba.",
-          items: [
-            { name: "Horčík + vápnik", sub: "vápnik z vaječných škrupín OVOVITAL®", dose: "120 + 400 mg",
-              plain: "Horčík prispieva k zníženiu únavy a k normálnej funkcii svalov, vápnik k normálnej svalovej činnosti. OVOVITAL® je prírodný vápnik s dobrou využiteľnosťou." },
-            { name: "Zinok + vitamíny", sub: "zinok, B1, B2, folát, B12, D3, E, C", dose: "8 mg Zn",
-              plain: "Nutričný základ v kvalitných, telu blízkych formách – napríklad metylfolát a metylkobalamín namiesto lacných syntetických foriem." }
-          ] }
-      ],
-      not: ["Bez hormónov", "Nie je to antikoncepcia", "Nie je to liek"],
-      note: "Pracovné zloženie – finálne dávky podľa výrobcu. Uvedené dávky sú pre 4 kapsuly denne, v náročnejších dňoch 6 kapsúl (1,5× viac). Nevhodné počas tehotenstva a dojčenia. Pri hormonálnej antikoncepcii alebo liečbe neplodnosti sa pred užívaním poraď s lekárom."
-    }
-  },
-  {
     id: "her-drive-35",
     name: "Primetime",
     subtitle: "Woman 35+",
@@ -242,6 +184,107 @@ window.MADI_PRODUCTS = [
     }
   },
   {
+    id: "set-hydrate",
+    name: "Akciové balenie",
+    subtitle: "Daily Hydrate + fľaša mādi",
+    line: "Začni rituál",
+    tagline: "Daily Hydrate 30 stickov + fľaša 500 ml",
+    pack: "Set",
+    price: 47.9,
+    oldPrice: 54.8,
+    rating: 5.0,
+    reviews: 27,
+    badge: "Akcia",
+    theme: "day",
+    image: "assets/img/pack-set.jpg?v=1",
+    gallery: ["assets/img/pack-set.jpg?v=1"],
+    available: true,
+    tiers: false,
+    description: "Všetko na začiatok denného hydratačného rituálu v jednom balení.",
+    bullets: ["Daily Hydrate – 30 stickov", "Fľaša mādi 500 ml", "Doprava zadarmo"],
+    usage: "Podľa návodu Daily Hydrate.",
+    ingredients: "Pozri Daily Hydrate."
+  },
+  {
+    id: "flasa-500",
+    name: "Fľaša mādi 500 ml",
+    line: "Na tvoj denný stick",
+    tagline: "S ryskami na pitný režim",
+    pack: "500 ml · bez BPA",
+    price: 24.9,
+    oldPrice: null,
+    rating: 4.9,
+    reviews: 18,
+    badge: null,
+    theme: "day",
+    image: "assets/img/pack-flasa.jpg?v=1",
+    gallery: ["assets/img/pack-flasa.jpg?v=1"],
+    available: true,
+    tiers: false,
+    description: "Ľahká fľaša s ryskami, otváranie jednou rukou. Presne na 1 stick Daily Hydrate.",
+    bullets: ["Bez BPA", "Otváranie jednou rukou", "Ryska po 100 ml"],
+    usage: "Naplň vodou a pridaj 1 stick Daily Hydrate.",
+    ingredients: "—"
+  },
+  {
+    id: "cycle",
+    name: "Cycle",
+    line: "V každej fáze cyklu",
+    tagline: "Daily women's cycle support",
+    pack: "120 kapsúl · 30 dní",
+    price: 34.9,
+    oldPrice: null,
+    rating: 4.9,
+    reviews: 33,
+    badge: null,
+    theme: "rose",
+    image: "assets/img/pack-cycle.jpg?v=1",
+    gallery: ["assets/img/pack-cycle.jpg?v=1"],
+    available: true,
+    tiers: true,
+    description:
+      "Prémiová denná formula pre ženský cyklus. Botanické jadro z extraktu Vitex agnus-castus a ďumbiera, doplnené o nutričný základ.",
+    bullets: ["Vitex agnus-castus – rovnováha cyklu", "Zázvor a harmanček – komfort počas menštruácie", "Šafran a damascénska ruža – nálada", "Horčík, vápnik, zinok a vitamíny B – nutričný základ"],
+    usage: "4 kapsuly denne, v náročnejších dňoch 6 kapsúl.",
+    ingredients: "Vitex agnus-castus 20 mg · Zázvor Ginfort® 133 mg · Šafran 25 mg · Harmanček 100 mg · Damascénska ruža 50–100 mg · Vápnik 400 mg · Horčík 120 mg · Zinok 8 mg · B1, B2, B6, folát, B12, D3, E, C. Pracovné zloženie (4 kapsuly) – finálne podľa výrobcu.",
+    composition: {
+      title: "Čo je vo vnútri a prečo",
+      intro: "Cyklus nie je len pár dní v mesiaci. Cycle ťa podporuje počas celého mesiaca – bylinami s dlhou tradíciou a nutričným základom, ktorý telo potrebuje.",
+      pillars: [
+        { key: "Cycle balance", name: "Rovnováha cyklu", feel: "Pokojnejšie dni pred menštruáciou.",
+          items: [
+            { name: "Vitex agnus-castus", sub: "extrakt z plodov, drmek obyčajný", dose: "20 mg",
+              plain: "Najznámejšia bylina pre ženský cyklus. Tradične sa používa na dni pred menštruáciou, keď sa telo aj nálada menia. Volíme extrakt s parametrami podobnými tým, ktoré sa skúmali v štúdiách." },
+            { name: "Vitamín B6", sub: "aktívna forma P-5-P", dose: "2–5 mg",
+              plain: "Prispieva k regulácii hormonálnej činnosti. Volíme aktívnu formu, ktorú telo nemusí ďalej premieňať." }
+          ] },
+        { key: "Comfort", name: "Komfort počas menštruácie", feel: "Ľahšie zvládnuté prvé dni.",
+          items: [
+            { name: "Zázvor", sub: "Ginfort® – koncentrovaný extrakt", dose: "133 mg",
+              plain: "Zázvor, ktorý poznáš z čaju, ale v koncentrovanej forme. Pri zvýšenej dávke (6 kapsúl) dostaneš rovnaké množstvo, aké sa používalo v štúdii o menštruačnom komforte." },
+            { name: "Harmanček", sub: "extrakt z kvetu", dose: "100 mg",
+              plain: "Upokojujúca bylina našich babičiek – pomáha telu uvoľniť sa." }
+          ] },
+        { key: "Mood", name: "Nálada", feel: "Menej výkyvov, viac seba.",
+          items: [
+            { name: "Šafran", sub: "štandardizovaný extrakt z bliznov", dose: "25 mg",
+              plain: "Najvzácnejšie korenie sveta. Jeho extrakt sa skúmal v súvislosti s náladou a pohodou žien. Stačí malá, presne štandardizovaná dávka." },
+            { name: "Damascénska ruža", sub: "extrakt z kvetu", dose: "50–100 mg",
+              plain: "Kvet s tisícročnou tradíciou v perzskom bylinkárstve. Dotvára jemnú, ženskú stránku receptúry." }
+          ] },
+        { key: "Nutrition", name: "Nutričný základ", feel: "To, čo telu počas cyklu často chýba.",
+          items: [
+            { name: "Horčík + vápnik", sub: "vápnik z vaječných škrupín OVOVITAL®", dose: "120 + 400 mg",
+              plain: "Horčík prispieva k zníženiu únavy a k normálnej funkcii svalov, vápnik k normálnej svalovej činnosti. OVOVITAL® je prírodný vápnik s dobrou využiteľnosťou." },
+            { name: "Zinok + vitamíny", sub: "zinok, B1, B2, folát, B12, D3, E, C", dose: "8 mg Zn",
+              plain: "Nutričný základ v kvalitných, telu blízkych formách – napríklad metylfolát a metylkobalamín namiesto lacných syntetických foriem." }
+          ] }
+      ],
+      not: ["Bez hormónov", "Nie je to antikoncepcia", "Nie je to liek"],
+      note: "Pracovné zloženie – finálne dávky podľa výrobcu. Uvedené dávky sú pre 4 kapsuly denne, v náročnejších dňoch 6 kapsúl (1,5× viac). Nevhodné počas tehotenstva a dojčenia. Pri hormonálnej antikoncepcii alebo liečbe neplodnosti sa pred užívaním poraď s lekárom."
+    }
+  },
+  {
     id: "digestive",
     name: "Have Your Cake",
     subtitle: "Femme Digestive Optimizer",
@@ -303,49 +346,6 @@ window.MADI_PRODUCTS = [
       not: ["Bez preháňadiel", "Bez piperínu", "Nie je to liek"],
       note: "Pracovné zloženie – finálny probiotický kmeň a dávka enzýmov podľa výrobcu. Počas tehotenstva, dojčenia a pri užívaní liekov sa pred užívaním poraď s lekárom. Ak máš dlhodobé alebo silné tráviace ťažkosti, navštív lekára."
     }
-  },
-  {
-    id: "flasa-500",
-    name: "Fľaša mādi 500 ml",
-    line: "Na tvoj denný stick",
-    tagline: "S ryskami na pitný režim",
-    pack: "500 ml · bez BPA",
-    price: 24.9,
-    oldPrice: null,
-    rating: 4.9,
-    reviews: 18,
-    badge: null,
-    theme: "day",
-    image: "assets/img/pack-flasa.jpg?v=1",
-    gallery: ["assets/img/pack-flasa.jpg?v=1"],
-    available: true,
-    tiers: false,
-    description: "Ľahká fľaša s ryskami, otváranie jednou rukou. Presne na 1 stick Daily Hydrate.",
-    bullets: ["Bez BPA", "Otváranie jednou rukou", "Ryska po 100 ml"],
-    usage: "Naplň vodou a pridaj 1 stick Daily Hydrate.",
-    ingredients: "—"
-  },
-  {
-    id: "set-hydrate",
-    name: "Akciové balenie",
-    subtitle: "Daily Hydrate + fľaša mādi",
-    line: "Začni rituál",
-    tagline: "Daily Hydrate 30 stickov + fľaša 500 ml",
-    pack: "Set",
-    price: 47.9,
-    oldPrice: 54.8,
-    rating: 5.0,
-    reviews: 27,
-    badge: "Akcia",
-    theme: "day",
-    image: "assets/img/pack-set.jpg?v=1",
-    gallery: ["assets/img/pack-set.jpg?v=1"],
-    available: true,
-    tiers: false,
-    description: "Všetko na začiatok denného hydratačného rituálu v jednom balení.",
-    bullets: ["Daily Hydrate – 30 stickov", "Fľaša mādi 500 ml", "Doprava zadarmo"],
-    usage: "Podľa návodu Daily Hydrate.",
-    ingredients: "Pozri Daily Hydrate."
   }
 ];
 
