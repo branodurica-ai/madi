@@ -627,3 +627,11 @@ body,p,li,input,button,select,textarea{font-family:var(--sans)}
 .ig-tile{aspect-ratio:1/1;border-radius:18px;border:1px dashed var(--rose);background:rgba(255,255,255,.35);display:grid;place-items:center}
 .ig-tile span{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
 .ig-cta{text-align:center;margin:32px 0 0}
+
+/* Logo C: mādi + by Pharmacist M. */
+.wordmark.logo-c{font-family:var(--display);font-weight:400;letter-spacing:-.01em;display:inline-flex;flex-direction:column;align-items:center;line-height:1}
+.logo-c .lw{font-size:1em}
+.logo-c .ls{font-family:var(--sans);font-weight:500;font-size:.24em;letter-spacing:.32em;text-transform:uppercase;color:var(--ink-soft);margin-top:.35em;padding-left:.32em}
+.site-header .wordmark.logo-c{font-size:32px}
+.footer-brand .wordmark.logo-c{font-size:56px}
+.site-header .wordmark.logo-c{align-items:flex-start}.site-header .logo-c .ls{padding-left:.04em;font-size:.22em}

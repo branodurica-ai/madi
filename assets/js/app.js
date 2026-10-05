@@ -20,7 +20,7 @@
   <div class="announce">Doprava zadarmo pri nákupe nad <b>${window.MADI_FREE_SHIPPING} €</b> · Navrhnuté farmaceutkou</div>
   <header class="site-header">
     <div class="wrap">
-      <a href="index.html" class="wordmark" aria-label="mādi – domov">mādi</a>
+      <a href="index.html" class="wordmark logo-c" aria-label="mādi by Pharmacist M. – domov"><span class="lw">mādi</span><span class="ls">by Pharmacist M.</span></a>
       <nav class="nav" id="nav" aria-label="Hlavné menu">
         <a href="index.html#produkty">Produkty</a>
         <a href="kozmetika.html" class="nav-soon">Kozmetika <span>Coming soon</span></a>
@@ -40,7 +40,7 @@
   const footer = `
   <footer class="site-footer">
     <div class="wrap">
-      <div class="footer-brand"><a href="index.html" class="wordmark">mādi</a><p>Doplnky výživy pre ženy, navrhnuté farmaceutkou.</p></div>
+      <div class="footer-brand"><a href="index.html" class="wordmark logo-c"><span class="lw">mādi</span><span class="ls">by Pharmacist M.</span></a><p>Doplnky výživy pre ženy, navrhnuté farmaceutkou.</p></div>
       <div class="footer-grid">
         <div><h4>Obchod</h4><ul><li><a href="produkt.html?p=daily-hydrate">Cheers, beautiful!</a></li><li><a href="produkt.html?p=more-and-more">More and More</a></li><li><a href="produkt.html?p=cycle">Cycle</a></li><li><a href="produkt.html?p=her-drive-35">Primetime</a></li><li><a href="produkt.html?p=digestive">Have Your Cake</a></li><li><a href="produkt.html?p=flasa-500">Fľaša 500 ml</a></li></ul></div>
         <div><h4>Pomoc</h4><ul><li><a href="#">Doprava a platba</a></li><li><a href="#">Vrátenie tovaru</a></li><li><a href="faq.html">Časté otázky</a></li><li><a href="blog.html">Blog</a></li><li><a href="mailto:info@madi.sk">info@madi.sk</a></li><li><a href="o-nas.html">O nás</a></li><li><a href="partneri.html">Pre partnerov</a></li></ul></div>
@@ -149,7 +149,7 @@
   <div class="scratch-wrap" id="scratchWrap" role="dialog" aria-modal="true" aria-labelledby="scratchTitle">
     <div class="scratch" id="scratch">
       <button class="icon-btn x" id="scratchClose" aria-label="Zavrieť">×</button>
-      <div class="wordmark" style="font-size:26px">mādi</div>
+      <div class="wordmark logo-c" style="font-size:30px"><span class="lw">mādi</span><span class="ls">by Pharmacist M.</span></div>
       <h2 id="scratchTitle">Zotri a vyhraj</h2>
       <p>Prstom alebo myšou zotri políčko a odhaľ zľavu na svoju prvú objednávku.</p>
       <div class="ticket"><div><div class="prize">−5 %</div><div class="code">KÓD: VITAJ5</div></div><canvas id="scratchCanvas"></canvas></div>
