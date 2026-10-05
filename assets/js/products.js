@@ -243,7 +243,7 @@ window.MADI_PRODUCTS = [
   },
   {
     id: "digestive",
-    name: "Digestive",
+    name: "Have Your Cake",
     subtitle: "Femme Digestive Optimizer",
     line: "Ľahkosť po každom jedle",
     tagline: "Pre pohodlné trávenie bez nadúvania",
@@ -254,12 +254,12 @@ window.MADI_PRODUCTS = [
     reviews: 12,
     badge: "Novinka",
     theme: "sand",
-    image: "assets/img/digestive.jpg",
-    gallery: ["assets/img/digestive.jpg"],
+    image: "assets/img/have-your-cake.jpg",
+    gallery: ["assets/img/have-your-cake.jpg"],
     available: true,
     tiers: true,
     description:
-      "Poznáš ten pocit, keď si po obede musíš povoliť gombík? Nadúvanie, ťažoba a plnosť nie sú „normálna súčasť“ ženského dňa. Digestive spája tráviace enzýmy, osvedčené byliny, kiwi a probiotikum – aby jedlo bolo radosť, nie záťaž.",
+      "Poznáš ten pocit, keď si po obede musíš povoliť gombík? Nadúvanie, ťažoba a plnosť nie sú „normálna súčasť“ ženského dňa. Have Your Cake spája tráviace enzýmy, osvedčené byliny, kiwi a probiotikum – aby jedlo bolo radosť, nie záťaž.",
     bullets: [
       "Tráviace enzýmy – pomoc s bielkovinami, tukmi, škrobmi aj mliečnym cukrom",
       "Mäta, rasca, artičok a kurkuma – byliny na pohodlné trávenie",
@@ -271,7 +271,7 @@ window.MADI_PRODUCTS = [
     ingredients: "Tráviaci enzýmový komplex 90–250 mg · Artičok 150 mg · Mäta pieporná 100 mg · Rasca 75 mg · Kurkuma 75 mg · Actazin® zelené kiwi 600 mg · Bacillus subtilis (BS50® alebo DE111®) 1–2 mld. CFU. Pracovné zloženie – finálne podľa výrobcu.",
     composition: {
       title: "Čo je vo vnútri a prečo",
-      intro: "Trávenie je reťaz: najprv sa jedlo musí rozložiť, potom pohodlne prejsť a nakoniec odísť. Digestive pomáha v každom kroku – jemne a bez preháňadiel.",
+      intro: "Trávenie je reťaz: najprv sa jedlo musí rozložiť, potom pohodlne prejsť a nakoniec odísť. Have Your Cake pomáha v každom kroku – jemne a bez preháňadiel.",
       pillars: [
         { key: "Digest", name: "Rozloženie jedla", feel: "Aby sa jedlo nezdržiavalo v žalúdku.",
           items: [
