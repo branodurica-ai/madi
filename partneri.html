@@ -113,6 +113,7 @@
       <div>
         <h2 class="h2" style="margin-bottom:16px">Poďme spolupracovať</h2>
         <p style="color:var(--ink-soft);margin:0">Napíšte nám, kde predávate a o ktoré produkty máte záujem. Ozveme sa do 2 pracovných dní.</p>
+        <p style="margin:18px 0 0">Alebo nám napíšte priamo: <a href="mailto:info@madi.sk">info@madi.sk</a></p>
       </div>
       <form class="form" id="partnerForm" novalidate>
         <label>Meno a priezvisko<input name="meno" autocomplete="name" required></label>
@@ -123,7 +124,7 @@
           <select name="typ"><option>Lekáreň</option><option>E-shop</option><option>Salón / klinika</option><option>Fitness / jóga štúdio</option><option>Iné</option></select>
         </label>
         <label class="full">Správa<textarea name="sprava" placeholder="Kde predávate a o ktoré produkty máte záujem"></textarea></label>
-        <div class="full"><button class="btn btn-primary" type="submit">Odoslať dopyt</button></div>
+        <div class="full"><button class="btn btn-primary" type="submit">Pripraviť e-mail s dopytom</button></div>
         <p class="full ship-note" id="partnerMsg" role="status" style="margin:0"></p>
       </form>
     </div>
@@ -136,7 +137,18 @@ document.getElementById("partnerForm").addEventListener("submit", function(e){
   e.preventDefault();
   const f = e.target, m = document.getElementById("partnerMsg");
   const ok = f.meno.value.trim() && f.firma.value.trim() && /^\S+@\S+\.\S+$/.test(f.email.value.trim());
-  m.textContent = ok ? "Ďakujeme, dopyt sme prijali. Ozveme sa do 2 pracovných dní." : "Vyplňte meno, názov firmy a e-mail v tvare meno@domena.sk.";
+  if (!ok) { m.textContent = "Vyplňte meno, názov firmy a e-mail v tvare meno@domena.sk."; return; }
+  const body = [
+    "Meno: " + f.meno.value.trim(),
+    "Firma: " + f.firma.value.trim(),
+    "E-mail: " + f.email.value.trim(),
+    "Telefón: " + f.telefon.value.trim(),
+    "Typ prevádzky: " + f.typ.value,
+    "",
+    f.sprava.value.trim()
+  ].join("\n");
+  location.href = "mailto:info@madi.sk?subject=" + encodeURIComponent("Spolupráca – " + f.firma.value.trim()) + "&body=" + encodeURIComponent(body);
+  m.textContent = "Otvorili sme váš e-mailový program s pripravenou správou – stačí ju odoslať. Ak sa neotvoril, napíšte nám na info@madi.sk.";
 });
 </script>
 </body>
