@@ -23,7 +23,6 @@
       <a href="index.html" class="wordmark" aria-label="mādi – domov">mādi</a>
       <nav class="nav" id="nav" aria-label="Hlavné menu">
         <a href="index.html#produkty">Produkty</a>
-        <a href="produkt.html?p=daily-hydrate">Cheers, beautiful!</a>
         <a href="kozmetika.html" class="nav-soon">Kozmetika <span>Coming soon</span></a>
         <a href="blog.html">Blog</a>
         <a href="o-nas.html">O nás</a>
