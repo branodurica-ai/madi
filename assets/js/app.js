@@ -20,7 +20,7 @@
   <div class="announce">Doprava zadarmo pri nákupe nad <b>${window.MADI_FREE_SHIPPING} €</b></div>
   <header class="site-header">
     <div class="wrap">
-      <a href="index.html" class="wordmark logo-c" aria-label="mādi by Pharmacist M. – domov"><span class="lw">mādi</span><span class="ls">by Pharmacist M.</span></a>
+      <a href="index.html" class="wordmark logo-c" aria-label="mādi by Pharmacist M. – domov"><span class="lw">mādi<sup class="reg">®</sup></span><span class="ls">by Pharmacist M.</span></a>
       <nav class="nav" id="nav" aria-label="Hlavné menu">
         <a href="index.html#produkty">Produkty</a>
         <a href="kozmetika.html" class="nav-soon">Kozmetika <span>Coming soon</span></a>
@@ -40,13 +40,13 @@
   const footer = `
   <footer class="site-footer">
     <div class="wrap">
-      <div class="footer-brand"><a href="index.html" class="wordmark logo-c"><span class="lw">mādi</span><span class="ls">by Pharmacist M.</span></a><p>Doplnky výživy pre ženy, navrhnuté farmaceutkou.</p><a class="footer-ig" href="https://www.instagram.com/madiskcz/" target="_blank" rel="noopener" aria-label="mādi na Instagrame"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@madiskcz</a></div>
+      <div class="footer-brand"><a href="index.html" class="wordmark logo-c"><span class="lw">mādi<sup class="reg">®</sup></span><span class="ls">by Pharmacist M.</span></a><p>Doplnky výživy pre ženy, navrhnuté farmaceutkou.</p><a class="footer-ig" href="https://www.instagram.com/madiskcz/" target="_blank" rel="noopener" aria-label="mādi na Instagrame"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@madiskcz</a></div>
       <div class="footer-grid">
         <div><h4>Obchod</h4><ul><li><a href="produkt.html?p=daily-hydrate">Cheers, beautiful!</a></li><li><a href="produkt.html?p=more-and-more">More and More</a></li><li><a href="produkt.html?p=cycle">Cycle</a></li><li><a href="produkt.html?p=her-drive-35">Primetime</a></li><li><a href="produkt.html?p=digestive">Have Your Cake</a></li><li><a href="produkt.html?p=flasa-500">Fľaša 500 ml</a></li></ul></div>
         <div><h4>Pomoc</h4><ul><li><a href="obchodne-podmienky.html#odstupenie">Vrátenie do 14 dní</a></li><li><a href="reklamacny-poriadok.html">Reklamácie</a></li><li><a href="faq.html">Časté otázky</a></li><li><a href="blog.html">Blog</a></li><li><a href="mailto:info@madi.sk">info@madi.sk</a></li><li><a href="o-nas.html">O nás</a></li><li><a href="partneri.html">Pre partnerov</a></li></ul></div>
         <div><h4>Právne</h4><ul><li><a href="obchodne-podmienky.html">Obchodné podmienky</a></li><li><a href="ochrana-udajov.html">Ochrana osobných údajov</a></li><li><a href="cookies.html">Cookies</a></li><li><a href="odstupenie.html">Formulár na odstúpenie</a></li></ul></div>
       </div>
-      <div class="legal"><span>© ${new Date().getFullYear()} mādi. Výživový doplnok nie je náhradou pestrej stravy.</span><span>Pracovná verzia webu – ceny a texty nie sú finálne.</span></div>
+      <div class="legal"><span>© ${new Date().getFullYear()} mādi®. Výživový doplnok nie je náhradou pestrej stravy.</span><span>Pracovná verzia webu – ceny a texty nie sú finálne.</span></div>
     </div>
   </footer>`;
   const drawer = `
@@ -149,7 +149,7 @@
   <div class="scratch-wrap" id="scratchWrap" role="dialog" aria-modal="true" aria-labelledby="scratchTitle">
     <div class="scratch" id="scratch">
       <button class="icon-btn x" id="scratchClose" aria-label="Zavrieť">×</button>
-      <div class="wordmark logo-c" style="font-size:30px"><span class="lw">mādi</span><span class="ls">by Pharmacist M.</span></div>
+      <div class="wordmark logo-c" style="font-size:30px"><span class="lw">mādi<sup class="reg">®</sup></span><span class="ls">by Pharmacist M.</span></div>
       <h2 id="scratchTitle">Zotri a vyhraj</h2>
       <p>Prstom alebo myšou zotri políčko a odhaľ zľavu na svoju prvú objednávku.</p>
       <div class="ticket"><div><div class="prize">−5 %</div><div class="code">KÓD: VITAJ5</div></div><canvas id="scratchCanvas"></canvas></div>
