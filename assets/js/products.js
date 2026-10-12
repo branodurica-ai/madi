@@ -417,8 +417,8 @@ window.MADI_PRODUCTS = [
     reviews: 0,
     badge: "Novinka",
     theme: "rose",
-    image: null,
-    gallery: [],
+    image: "assets/img/jar-fire.jpg?v=1",
+    gallery: ["assets/img/jar-fire.jpg?v=1"],
     available: true,
     tiers: true,
     description:
