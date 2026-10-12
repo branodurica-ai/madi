@@ -22,7 +22,7 @@ window.MADI_BUYBOX = function (el, id, isPage) {
       <div class="buy-info">
         <p class="line">${p.line}</p>
         <${H}>${p.name}</${H}>${p.subtitle ? `<p class="subtitle">${p.subtitle}</p>` : ""}
-        <div class="stars">${p.rating ? `<b>★★★★★</b> ${p.rating.toFixed(1)} · ${p.reviews} hodnotení` : "Novinka v príprave"}</div>
+        <div class="stars">${p.rating ? `<b>★★★★★</b> ${p.rating.toFixed(1)} · ${p.reviews} hodnotení` : (p.available ? "Novinka – buď medzi prvými" : "Novinka v príprave")}</div>
         <p class="desc">${p.description}</p>
         ${p.available ? `
           ${p.tiers ? `<div class="mode" role="group" aria-label="Spôsob nákupu">

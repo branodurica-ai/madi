@@ -346,6 +346,60 @@ window.MADI_PRODUCTS = [
       not: ["Bez preháňadiel", "Bez piperínu", "Nie je to liek"],
       note: "Pracovné zloženie – finálny probiotický kmeň a dávka enzýmov podľa výrobcu. Počas tehotenstva, dojčenia a pri užívaní liekov sa pred užívaním poraď s lekárom. Ak máš dlhodobé alebo silné tráviace ťažkosti, navštív lekára."
     }
+  },
+  {
+    id: "moonlight",
+    name: "Moonlight",
+    subtitle: "Magnesium Bisglycinate",
+    line: "Večerný rituál s horčíkom",
+    tagline: "250 mg horčíka v najlepšie znášanej forme",
+    pack: "60 kapsúl · 30 dní",
+    price: 24.9,
+    oldPrice: null,
+    rating: null,
+    reviews: 0,
+    badge: "Novinka",
+    theme: "plum",
+    image: null,
+    gallery: [],
+    available: true,
+    tiers: true,
+    description:
+      "Deň skončil, telo ešte nie. Moonlight je jednoduchý večerný rituál: 2 kapsuly a 250 mg horčíka vo forme bisglycinátu – tej, ktorú žalúdok znáša najlepšie. Žiadne zbytočné prímesi, žiadny lacný oxid na „nafúknutie“ čísla na etikete. Len čistý horčík, ktorý prispieva k normálnej činnosti nervového systému a svalov.",
+    bullets: [
+      "250 mg elementárneho horčíka v dennej dávke (67 % RHP)",
+      "100 % magnézium bisglycinát – plne reagovaný chelát",
+      "Nepufrovaný, bez pridaného oxidu horečnatého",
+      "Šetrný k žalúdku – vhodný na každodenné užívanie",
+      "Bez ďalších aktívnych látok, 2 kapsuly denne"
+    ],
+    usage: "2 kapsuly denne večer, zapiť vodou. Balenie na 30 dní.",
+    ingredients: "Magnézium bisglycinát (plne reagovaný chelát) v množstve zodpovedajúcom 250 mg elementárneho horčíka (67 % RHP*) · kapsula. *RHP = referenčná hodnota príjmu. Pracovné zloženie – finálne podľa výrobcu.",
+    composition: {
+      title: "Čo je vo vnútri a prečo",
+      intro: "Moonlight má jednu aktívnu zložku – a robí ju poriadne. Pri horčíku nerozhoduje len číslo na etikete, ale hlavne forma, v akej ho telo dostane.",
+      pillars: [
+        { key: "Calm", name: "Pokojná myseľ", feel: "Na konci dňa, keď hlava ešte beží naplno.",
+          items: [
+            { name: "Horčík", sub: "elementárny, z bisglycinátu", dose: "250 mg",
+              plain: "Horčík prispieva k normálnej činnosti nervového systému a k normálnej psychickej funkcii. 250 mg je poctivá denná dávka – dve tretiny toho, čo telo denne potrebuje." }
+          ] },
+        { key: "Body", name: "Uvoľnené telo", feel: "Po tréningu, po dlhom státí, po náročnom dni.",
+          items: [
+            { name: "Horčík", sub: "pre svaly a energiu", dose: "67 % RHP",
+              plain: "Horčík prispieva k normálnej funkcii svalov a k zníženiu vyčerpania a únavy. Ženy ho strácajú potom, stresom aj počas cyklu – a zo stravy ho často nedostanú dosť." }
+          ] },
+        { key: "Pure form", name: "Forma, na ktorej záleží", feel: "Prečo bisglycinát a nie hocijaký horčík.",
+          items: [
+            { name: "Bisglycinát", sub: "plne reagovaný chelát", dose: "100 %",
+              plain: "Horčík je pevne naviazaný na glycín – malú aminokyselinu. Vďaka tomu je dobre využiteľný a je šetrný k žalúdku, takže nespôsobuje tráviace ťažkosti ako niektoré lacnejšie formy." },
+            { name: "Nepufrovaný", sub: "bez oxidu horečnatého", dose: "0 mg oxidu",
+              plain: "Mnohé „bisglycináty“ sú v skutočnosti zmes s lacným oxidom horečnatým, ktorý zvýši číslo na etikete, ale telo ho využije len slabo. Moonlight je čistý bisglycinát – bez skratiek." }
+          ] }
+      ],
+      not: ["Bez oxidu horečnatého", "Bez ďalších aktívnych látok", "Nie je to liek"],
+      note: "Pracovné zloženie – finálne podľa výrobcu. Neprekračuj odporúčanú dennú dávku. Výživový doplnok nie je náhradou pestrej stravy. Počas tehotenstva, dojčenia a pri užívaní liekov sa pred užívaním poraď s lekárom."
+    }
   }
 ];
 
@@ -361,8 +415,8 @@ window.MADI_FREE_SHIPPING = 50;
 /* Kategórie portfólia (úvodná stránka). soon = pripravujeme, pracovné názvy */
 window.MADI_CATEGORIES = [
   { key: "daily-glow", bg: "radial-gradient(80% 70% at 15% 10%,#FFE1C9 0%,rgba(255,225,201,0) 70%),radial-gradient(70% 60% at 90% 95%,#FFC9D2 0%,rgba(255,201,210,0) 70%),linear-gradient(160deg,#FFF1E8,#FDE3E4)", name: "Daily Glow", line: "Každodenný rituál", text: "Malé návyky, ktoré ťa podržia celý deň.",
-    products: ["daily-hydrate", "set-hydrate", "flasa-500"],
-    soon: [{ name: "Main Character", text: "Ženský multivitamín" }, { name: "Sweet Dreams", text: "Horčík na večer a spánok" }] },
+    products: ["daily-hydrate", "moonlight", "set-hydrate", "flasa-500"],
+    soon: [{ name: "Main Character", text: "Ženský multivitamín" }] },
   { key: "after-dark", bg: "radial-gradient(80% 70% at 85% 10%,#E39AB0 0%,rgba(227,154,176,0) 70%),radial-gradient(70% 60% at 10% 95%,#EDB0C0 0%,rgba(237,176,192,0) 70%),linear-gradient(160deg,#F3CBD6,#EBB9C8)", name: "After Dark", line: "Intimita a uvoľnenie", text: "Pre chvíle, keď sa chceš cítiť naplno.",
     products: ["more-and-more"],
     soon: [{ name: "Soft Spot", text: "Hydratácia zvnútra" }, { name: "Happy Place", text: "Intímna mikroflóra" }, { name: "Keep Calm", text: "Stres a nálada" }] },
