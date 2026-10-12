@@ -403,6 +403,62 @@ window.MADI_PRODUCTS = [
       not: ["Bez oxidu horečnatého", "Bez ďalších aktívnych látok", "Nie je to liek"],
       note: "Pracovné zloženie – finálne podľa výrobcu. Neprekračuj odporúčanú dennú dávku. Výživový doplnok nie je náhradou pestrej stravy. Počas tehotenstva, dojčenia a pri užívaní liekov sa pred užívaním poraď s lekárom."
     }
+  },
+  {
+    id: "keep-your-fire",
+    name: "Keep Your Fire",
+    subtitle: "Creatine + Naticol® CySkin®",
+    line: "Strength for body & beauty",
+    tagline: "Sila a krása sa navzájom nevylučujú",
+    pack: "Prášok · 30 dávok (cca 320 g)",
+    price: 39.9,
+    oldPrice: null,
+    rating: null,
+    reviews: 0,
+    badge: "Novinka",
+    theme: "rose",
+    image: null,
+    gallery: [],
+    available: true,
+    tiers: true,
+    description:
+      "Ženská sila podčiarkuje ženskú krásu. Keep Your Fire spája plnú dávku kreatínu Creapure® s beauty komplexom Naticol® CySkin® – morským kolagénom a L-cystínom – a vitamínom C. Nie je to stimulant, nie je to pre-workout a nie je to fitness trend. Je to jednoduchý denný rituál pre ženy, ktoré chcú zostať silné v každom veku.",
+    bullets: [
+      "5 g kreatínu Creapure® – plná dávka bez nasycovacej fázy",
+      "5,5 g Naticol® CySkin® – morský kolagén + L-cystín",
+      "Vitamín C prispieva k normálnej tvorbe kolagénu pre normálnu funkciu pokožky",
+      "Bez stimulantov, bez BCAA, bez zbytočných prímesí",
+      "1 dávka denne – do vody, smoothie alebo jogurtu"
+    ],
+    usage: "1 dávku (cca 10,6 g) denne rozmiešaj vo vode, smoothie alebo jogurte. Bez nasycovacej fázy. Najlepšie spolu s pravidelným silovým pohybom.",
+    ingredients: "Kreatín monohydrát Creapure® 5 000 mg · Naticol® CySkin® 5 500 mg (hydrolyzované rybie kolagénové peptidy cca 4 950 mg, L-cystín cca 550 mg) · Vitamín C 80 mg (100 % RHP). Obsahuje rybu. Pracovné zloženie – finálne podľa výrobcu.",
+    composition: {
+      title: "Čo je vo vnútri a prečo",
+      intro: "Dve prémiové suroviny v poctivých dávkach a vitamín C. Žiadne tokenové prísady – každá zložka je tam v množstve, ktoré sa skúmalo.",
+      pillars: [
+        { key: "Strength", name: "Sila a výkon", feel: "Pre ženy, ktoré cvičia – a pre tie, ktoré chcú zostať silné aj o 20 rokov.",
+          items: [
+            { name: "Kreatín Creapure®", sub: "100 % kreatín monohydrát, vyrobený v Nemecku", dose: "5 g",
+              plain: "Kreatín zvyšuje fyzickú výkonnosť pri opakovaných krátkych a intenzívnych cvičeniach. U dospelých nad 55 rokov môže denný príjem kreatínu umocniť účinok silového tréningu na svalovú silu. Ženy ho zo stravy prijímajú často menej ako muži – a 5 g je dávka, ktorá sa u žien priamo skúmala, bez nasycovacej fázy." }
+          ] },
+        { key: "Beauty", name: "Krása zvnútra", feel: "Pleť, vlasy a nechty – sila, ktorú vidno.",
+          items: [
+            { name: "Naticol® CySkin®", sub: "morský kolagén (90 %) + L-cystín (10 %)", dose: "5,5 g",
+              plain: "Prémiový francúzsky komplex z rybích kolagénových peptidov a L-cystínu, aminokyseliny, z ktorej sa skladá keratín vlasov a nechtov. 5,5 g je presne dávka, v ktorej sa skúmal u žien – mladších aj zrelších." },
+            { name: "Vitamín C", sub: "", dose: "80 mg",
+              plain: "Prispieva k normálnej tvorbe kolagénu pre normálnu funkciu pokožky a k zníženiu únavy a vyčerpania." }
+          ] },
+        { key: "Clean", name: "Čistá formula", feel: "Menej je viac – ak je to správne „menej“.",
+          items: [
+            { name: "Bez stimulantov", sub: "bez kofeínu, BCAA a zbytočných mixov", dose: "0 mg kofeínu",
+              plain: "Žiadne nakopnutie a pád. Kreatín nepôsobí ako energetický nápoj – funguje potichu, keď ho užívaš pravidelne každý deň." },
+            { name: "Bez nasycovania", sub: "žiadna fáza 20 g denne", dose: "1× denne",
+              plain: "Strach z „nafúknutia“ po kreatíne pochádza hlavne z vysokých nasycovacích dávok. Pri 5 g denne sa zásoby dopĺňajú postupne a jemne." }
+          ] }
+      ],
+      not: ["Bez stimulantov", "Bez nasycovacej fázy", "Nie je to liek"],
+      note: "Pracovné zloženie – finálne podľa výrobcu. Obsahuje rybu (kolagén z rybej kože). Neprekračuj odporúčanú dennú dávku. Výživový doplnok nie je náhradou pestrej stravy. Počas tehotenstva, dojčenia, pri ochorení obličiek a pri užívaní liekov sa pred užívaním poraď s lekárom."
+    }
   }
 ];
 
@@ -424,9 +480,9 @@ window.MADI_CATEGORIES = [
     products: ["more-and-more"],
     soon: [{ name: "Soft Spot", text: "Hydratácia zvnútra" }, { name: "Happy Place", text: "Intímna mikroflóra" }, { name: "Keep Calm", text: "Stres a nálada" }] },
   { key: "her-rhythm", bg: "radial-gradient(80% 70% at 10% 90%,#DCC3EC 0%,rgba(220,195,236,0) 70%),radial-gradient(70% 60% at 90% 10%,#F6C9DD 0%,rgba(246,201,221,0) 70%),linear-gradient(160deg,#F5E3F1,#EEDAEE)", name: "Her Rhythm", line: "Cyklus a životné fázy", text: "Podpora pre každú fázu – mesiaca aj života.",
-    products: ["cycle", "her-drive-35", "moonlight"],
+    products: ["cycle", "her-drive-35", "moonlight", "keep-your-fire"],
     soon: [{ name: "Second Spring", text: "Perimenopauza a menopauza" }, { name: "Mama Mode", text: "Po pôrode" }] },
   { key: "inside-out", bg: "radial-gradient(80% 70% at 90% 90%,#C9E8D9 0%,rgba(201,232,217,0) 70%),radial-gradient(70% 60% at 10% 10%,#FBD2DC 0%,rgba(251,210,220,0) 70%),linear-gradient(160deg,#F1F7F1,#FBE5EA)", name: "Inside Out", line: "Krása a trávenie zvnútra", text: "Krása začína tam, kde ju nevidno.",
-    products: ["digestive"],
+    products: ["digestive", "keep-your-fire"],
     soon: [{ name: "Glow Getter", text: "Pleť, vlasy, nechty" }, { name: "Kozmetika mādi", text: "Coming soon" }] }
 ];
