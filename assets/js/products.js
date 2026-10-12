@@ -228,9 +228,10 @@ window.MADI_PRODUCTS = [
   },
   {
     id: "cycle",
-    name: "Cycle",
-    line: "V každej fáze cyklu",
-    tagline: "Daily women's cycle support",
+    name: "Pink Aura",
+    subtitle: "Daily women's cycle support",
+    line: "For every phase of your cycle",
+    tagline: "Your cycle. Your mood. Your balance. Your aura.",
     pack: "120 kapsúl · 30 dní",
     price: 34.9,
     oldPrice: null,
@@ -238,8 +239,8 @@ window.MADI_PRODUCTS = [
     reviews: 33,
     badge: null,
     theme: "rose",
-    image: "assets/img/pack-cycle.jpg?v=1",
-    gallery: ["assets/img/pack-cycle.jpg?v=1"],
+    image: "assets/img/pack-pinkaura.jpg?v=1",
+    gallery: ["assets/img/pack-pinkaura.jpg?v=1"],
     available: true,
     tiers: true,
     description:
@@ -249,7 +250,7 @@ window.MADI_PRODUCTS = [
     ingredients: "Vitex agnus-castus 20 mg · Zázvor Ginfort® 133 mg · Šafran 25 mg · Harmanček 100 mg · Damascénska ruža 50–100 mg · Vápnik 400 mg · Horčík 120 mg · Zinok 8 mg · B1, B2, B6, folát, B12, D3, E, C. Pracovné zloženie (4 kapsuly) – finálne podľa výrobcu.",
     composition: {
       title: "Čo je vo vnútri a prečo",
-      intro: "Cyklus nie je len pár dní v mesiaci. Cycle ťa podporuje počas celého mesiaca – bylinami s dlhou tradíciou a nutričným základom, ktorý telo potrebuje.",
+      intro: "Cyklus nie je len pár dní v mesiaci. Pink Aura ťa podporuje počas celého mesiaca – bylinami s dlhou tradíciou a nutričným základom, ktorý telo potrebuje.",
       pillars: [
         { key: "Cycle balance", name: "Rovnováha cyklu", feel: "Pokojnejšie dni pred menštruáciou.",
           items: [
