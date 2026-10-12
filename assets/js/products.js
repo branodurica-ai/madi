@@ -5,31 +5,33 @@ window.MADI_PRODUCTS = [
   {
     id: "daily-hydrate",
     name: "Cheers, beautiful!",
-    line: "Smart daily hydration",
-    tagline: "Smart daily hydration – 1 stick do 500 ml vody",
-    pack: "30 stickov · Strawberry Hibiscus",
+    subtitle: "Women's hydration superpowder",
+    line: "Your everyday hydration ritual",
+    tagline: "Women's hydration superpowder – 1 stick do 500 ml vody",
+    pack: "21 stickov · Wild Strawberry",
     price: 29.9,
     oldPrice: null,
     rating: 4.9,
     reviews: 64,
     badge: "Novinka",
     theme: "day",
-    image: "assets/img/pack-hydrate.jpg?v=1",
-    gallery: ["assets/img/pack-hydrate.jpg?v=1"],
+    image: "assets/img/pack-hydrate-v2.jpg?v=1",
+    gallery: ["assets/img/pack-hydrate-v2.jpg?v=1"],
     available: true,
     tiers: true,
     description:
       "Každodenný hydratačný rituál pre ženy – do práce, na cesty aj do náročnejších dní. Voda zostáva základom a Cheers, beautiful! k nej pridáva presne definované minerály a starostlivo vybrané funkčné zložky.",
     bullets: [
       "Elektrolyty s transparentnými dávkami: 400 mg sodíka, 300 mg draslíka, 120 mg horčíka",
-      "3 g prášku z kokosovej vody",
+      "AQUINA™ – náš blend 5 aminokyselín (1,74 g)",
+      "3 g BIO prášku z kokosovej vody",
       "Vitamín C zo štandardizovanej aceroly a vitamín B6",
-      "Skutočné lyofilizované ovocie",
-      "Bez kofeínu, bez pridaného cukru"
+      "Skutočné lyofilizované jahody, príchuť wild strawberry",
+      "Bez kofeínu, bez pridaného cukru – sladené steviou"
     ],
     usage: "1 stick rozmiešaj v 500 ml vody. Primárne 1 dávka denne.",
     ingredients:
-      "Sodík 400 mg · Draslík 300 mg · Horčík 120 mg · Coconut water powder · Vitamín C (acerola) 80 mg · Vitamín B6 0,7 mg · Lyofilizované ovocie · AA blend 1 740 mg. Pracovné zloženie – finálne podľa výrobcu.",
+      "Sodík 400 mg · Draslík 300 mg · Horčík 120 mg · Coconut water powder · Vitamín C (acerola) 80 mg · Vitamín B6 0,7 mg · Lyofilizované ovocie · AQUINA™ amino blend 1 740 mg (kys. L-asparágová 450 mg · L-serín 400 mg · L-valín 350 mg · L-treonín 350 mg · L-tyrozín 190 mg) · Sladidlo: steviol glykozidy (Reb M) · Príchuť wild strawberry. Pracovné zloženie – finálne podľa výrobcu.",
     composition: {
       title: "Čo je v jednom sticku a prečo",
       intro: "Voda zostáva základom. Cheers, beautiful! k nej pridáva len to, čo má jasný dôvod – s presnou dávkou na každej zložke.",
@@ -50,9 +52,9 @@ window.MADI_PRODUCTS = [
             { name: "Lyofilizované ovocie", sub: "šetrne vysušené mrazom", dose: "250–500 mg",
               plain: "Ovocie, z ktorého sa pri nízkej teplote odstránila voda. Zostane mu chuť aj prirodzená farba – preto nápoj chutí ako ovocie, nie ako chémia." }
           ] },
-        { key: "Amino support", name: "Aminokyseliny", feel: "Naša tajná prísada – inšpirovaná najnovším výskumom hydratácie.",
+        { key: "Amino support", name: "AQUINA™ amino blend", feel: "Päť malých aminokyselín, ktoré spolu vytvárajú niečo väčšie – ako kvapky, z ktorých vzniká oceán.",
           items: [
-            { name: "AA blend", sub: "5 aminokyselín: kys. asparágová, serín, valín, treonín, tyrozín", dose: "1 740 mg",
+            { name: "AQUINA™", sub: "5 aminokyselín: kys. asparágová, serín, valín, treonín, tyrozín", dose: "1 740 mg",
               plain: "Niektoré aminokyseliny sa v čreve vstrebávajú spolu so sodíkom – a voda ich nasleduje. Dávka je zámerne nízka: štúdie ukázali, že pri hydratácii viac neznamená lepšie. Nie sú to športové BCAA, ide o šetrný, každodenný blend." }
           ] },
         { key: "Daily nutrition", name: "Vitamíny", feel: "Malá denná podpora navyše.",
@@ -188,7 +190,7 @@ window.MADI_PRODUCTS = [
     name: "Akciové balenie",
     subtitle: "Cheers, beautiful! + fľaša mādi",
     line: "Začni rituál",
-    tagline: "Cheers, beautiful! 30 stickov + fľaša 500 ml",
+    tagline: "Cheers, beautiful! 21 stickov + fľaša 500 ml",
     pack: "Set",
     price: 47.9,
     oldPrice: 54.8,
@@ -201,7 +203,7 @@ window.MADI_PRODUCTS = [
     available: true,
     tiers: false,
     description: "Všetko na začiatok denného hydratačného rituálu v jednom balení.",
-    bullets: ["Cheers, beautiful! – 30 stickov", "Fľaša mādi 500 ml", "Doprava zadarmo"],
+    bullets: ["Cheers, beautiful! – 21 stickov", "Fľaša mādi 500 ml", "Doprava zadarmo"],
     usage: "1 stick Cheers, beautiful! rozmiešaj v 500 ml vody.",
     ingredients: "Zloženie nájdeš pri produkte Cheers, beautiful!"
   },
@@ -221,7 +223,7 @@ window.MADI_PRODUCTS = [
     gallery: ["assets/img/pack-flasa.jpg?v=1"],
     available: true,
     tiers: false,
-    description: "Ľahká fľaša s ryskami, otváranie jednou rukou. Presne na 1 stick Cheers, beautiful! – Smart daily hydration.",
+    description: "Ľahká fľaša s ryskami, otváranie jednou rukou. Presne na 1 stick Cheers, beautiful! – Women's hydration superpowder.",
     bullets: ["Bez BPA", "Otváranie jednou rukou", "Ryska po 100 ml"],
     usage: "Naplň vodou a pridaj 1 stick Cheers, beautiful!",
     ingredients: "—"
